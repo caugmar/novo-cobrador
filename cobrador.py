@@ -9,7 +9,7 @@ from relatorios import relatorios
 
 if __name__ == '__main__':
     global cp850
-    parser = OptionParser("%prog [-c] [-e] [-d] [-r]")
+    parser = OptionParser("%prog [-c] [-g] [-e] [-d] [-r]")
     parser.add_option("-c", "--carregar", action="store_true", dest="carregar",
                       help="carrega as planilhas no banco de dados")
     parser.add_option("-g", "--gerar", action="store_true", dest="gerar",

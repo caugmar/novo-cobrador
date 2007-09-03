@@ -6,6 +6,7 @@ from comum import *
 def relatorios(emissao, cp850=False):
     tipos = sorted(list(set([i.tipo for i in db.lancamentos.all()])))
     for tipo in tipos:
+        geral = Decimal("0.0")
         titulo = config.get(tipo, "título")
         print "%s\n" % titulo
         print "+--------+-------------------------------------------------------+-------------+"
@@ -27,4 +28,9 @@ def relatorios(emissao, cp850=False):
             print "|        +------+------------------------------------------------+-------------+"
             print "|        |                                           T O T A L   | %s |" % valor(total)
             print "+--------+-------------------------------------------------------+-------------+"
+            geral += total
+        print ""
+        print "+----------------------------------------------------------------+-------------+"
+        print "|                                        T O T A L   G E R A L   | %s |" % valor(geral)
+        print "+----------------------------------------------------------------+-------------+"
         print chr(12) # Form feed
