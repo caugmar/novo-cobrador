@@ -1,7 +1,7 @@
 all:
 
 clean:
-	rm -rf *.pyc *~ *.sql *.autosave *.csv *.txt
+	rm -rf *.pyc *~ *.sql *.autosave *.csv *.txt *.pdf
 
 sql:
 	tedia2sql -t innodb -o cobranca.sql cobranca.dia
