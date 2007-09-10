@@ -157,7 +157,7 @@ def relatorios(emissao, cp850=False):
                      'outros': Decimal('0.0'),
                      'total': Decimal('0.0')}
             linha['numero'] = registro.numero_da_nota
-            linha['nome'] =  registro.nome.decode("latin-1")
+            linha['nome'] =  registro.nome.decode("latin-1")[:50]
             itens = db.itens_de_cobranca.filter_by(documento=registro.id)
             for i in itens:
                 linha['total'] += i.valor
