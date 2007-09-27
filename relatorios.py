@@ -18,7 +18,7 @@ class Relatorio:
         self.titulo = titulo.decode('latin-1')
         self.autor = 'cobrador'
         self.pagina = (pagesizes.A4[1], pagesizes.A4[0])
-        self.margens = (1*cm, 1*cm, 0.5*cm, 1.5*cm)
+        self.margens = (1*cm, 1*cm, 2*cm, 1.5*cm)
         self.dados = dados
         
     def contagem(self, canvas, doc):
@@ -26,16 +26,10 @@ class Relatorio:
         self.paginas = self.paginas + 1
 
     def emitir(self):
-        self.estilo_titulo = estilo_titulo = self.estilos['Title']
-        estilo_titulo.fontName = 'Helvetica-Bold'
-        estilo_titulo.fontSize = 16
         self.estilo_comentario = estilo_comentario = self.estilos['Normal']
         estilo_comentario.fontName = 'Helvetica-Oblique'
         estilo_comentario.alignment = TA_CENTER
-    
         lst = []
-        lst.append(Paragraph(self.titulo, estilo_titulo))
-        lst.append(Spacer(0, 0.5*cm))
         tabela = self.gerar()
         if type(tabela) == types.ListType:
             lst = lst + tabela
@@ -67,6 +61,8 @@ class Relatorio:
 
     def modelo_de_pagina(self, canvas, doc):
         canvas.saveState()
+        canvas.setFont('Helvetica-Bold', 16)
+        canvas.drawCentredString(pagesizes.A4[1]/2.0, 19.5*cm, self.titulo)
         canvas.setFont('Helvetica', 10)
         canvas.drawCentredString(pagesizes.A4[1]/2.0, 1.0*cm, u"Página %d de %d" % (doc.page, self.paginas))
         canvas.restoreState()
