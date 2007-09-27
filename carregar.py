@@ -3,14 +3,17 @@
 
 from comum import *
 
-def carregar():
+def carregar_tipos():
     tipos = sorted([i for i in os.listdir(".") if i.endswith(".tmpl")])
     for arquivo in tipos:
         tipo = arquivo.replace(".tmpl", "").upper()
         if os.access(arquivo, os.F_OK):
             texto = open(arquivo).read()
-            db.tipos_de_documento.insert(mnemonico=tipo, modelo=texto)
+            if not db.tipos_de_documento.select_by(mnemonico=tipo):
+                db.tipos_de_documento.insert(mnemonico=tipo, modelo=texto)
     db.flush()
+
+def carregar_empresas():
     if os.access('empresas.csv', os.F_OK):
         dados = list(csv.reader(open('empresas.csv')))[1:]
         db.empresas.delete()
@@ -30,9 +33,12 @@ def carregar():
                                 telefone = registro[12],
                                 email = registro[13])
     db.flush()
+
+def carregar_lancamentos():
     if os.access('lancamentos.csv', os.F_OK):
         dados = list(csv.reader(open('lancamentos.csv')))[1:]
         db.lancamentos.delete()
+        carregar_empresas()
         for registro in dados:
             db.lancamentos.insert(tipo = registro[0],
                                     empresa = registro[1],
@@ -40,4 +46,8 @@ def carregar():
                                     descricao = registro[3],
                                     valor = registro[4].replace(',', '.'))
     db.flush()
+
+def carregar():
+    carregar_tipos()
+    carregar_lancamentos()
 
