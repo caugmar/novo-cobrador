@@ -11,6 +11,9 @@ def carregar_tipos():
             texto = open(arquivo).read()
             if not db.tipos_de_documento.select_by(mnemonico=tipo):
                 db.tipos_de_documento.insert(mnemonico=tipo, modelo=texto)
+            else:
+                temp = db.tipos_de_documento.get_by(mnemonico=tipo)
+                temp.modelo = texto
     db.flush()
 
 def carregar_empresas():
