@@ -1,0 +1,146 @@
+<ui version="4.0" >
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>308</width>
+    <height>429</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Emissão da Cobrança</string>
+  </property>
+  <widget class="QWidget" name="" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>291</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" >
+    <item>
+     <widget class="QPushButton" name="pushButton" >
+      <property name="text" >
+       <string>&amp;1. Carregar as planilhas de dados</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label" >
+      <property name="text" >
+       <string>Clique neste botão para trazer os dados sobre a cobrança que você informou na planilha eletrônica  para dentro do banco de dados do programa.</string>
+      </property>
+      <property name="wordWrap" >
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer>
+      <property name="orientation" >
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeType" >
+       <enum>QSizePolicy::Fixed</enum>
+      </property>
+      <property name="sizeHint" >
+       <size>
+        <width>20</width>
+        <height>21</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2" >
+      <property name="text" >
+       <string>&amp;2. Gerar os documentos de cobrança</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2" >
+      <property name="text" >
+       <string>Clique neste botão para gerar os novos documentos de cobrança no banco de dados.</string>
+      </property>
+      <property name="wordWrap" >
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer>
+      <property name="orientation" >
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeType" >
+       <enum>QSizePolicy::Fixed</enum>
+      </property>
+      <property name="sizeHint" >
+       <size>
+        <width>20</width>
+        <height>21</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3" >
+      <property name="text" >
+       <string>&amp;3. Emitir os relatórios de cobrança</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3" >
+      <property name="text" >
+       <string>Clique neste botão para emitir os relatórios referentes aos documentos de cobrança que você gerou no passo anterior.</string>
+      </property>
+      <property name="wordWrap" >
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer>
+      <property name="orientation" >
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeType" >
+       <enum>QSizePolicy::Fixed</enum>
+      </property>
+      <property name="sizeHint" >
+       <size>
+        <width>20</width>
+        <height>21</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_4" >
+      <property name="text" >
+       <string>&amp;4. Emitir os documentos de cobrança</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_4" >
+      <property name="text" >
+       <string>Clique neste botão para finalmente imprimir os documentos de cobrança que foram gerados.</string>
+      </property>
+      <property name="wordWrap" >
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
