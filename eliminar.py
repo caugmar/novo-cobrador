@@ -9,5 +9,6 @@ def eliminar(data_de_emissao):
         itens = db.itens_de_cobranca.select_by(documento=doc.id)
         for item in itens:
             db.delete(item)
+            db.flush()
         db.delete(doc)
     db.flush()
