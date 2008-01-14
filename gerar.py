@@ -7,8 +7,8 @@ def gerar():
     tipos = sorted(list(set([i.tipo for i in db.lancamentos.all()])))
     for tipo in tipos:
         numero = int(config.get(tipo, "número"))
-        emissao = config.get(tipo, "emissão")
-        vencimento = config.get(tipo, "vencimento")
+        emissao = config.get("COMUM", "emissão")
+        vencimento = config.get("COMUM", "vencimento")
         #temp = db.join(db.lancamentos, db.empresas, db.lancamentos.c.empresa==db.empresas.c.mnemonico)
         temp = db.join(db.lancamentos, db.empresas).filter_by(tipo=tipo)
         empresas = sorted(list(set([(i.nome, i.mnemonico) for i in temp.all()])))
