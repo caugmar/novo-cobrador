@@ -3,6 +3,7 @@
 
 from xml.dom.minidom import parse, parseString
 import os, re, sys
+from comum import *
 
 class Content:
 
@@ -74,6 +75,19 @@ def atualizar_planilha(caminho, data, descricao, valor):
     os.system('zip -qr9 "%s" *' % caminho)
     os.chdir("..")
     os.system("rm -rf %s > /dev/null 2>&1" % tempdir)
+
+def atualizar_todas_as_planilhas(emissao):
+    for doc in db.documentos_de_cobranca.filter_by(data_de_emissao=emissao):
+        planilha = db.empresas.select_by(nome=doc.nome)[0].planilha
+        if planilha.strip == "":
+            continue
+        diretorio = config.get("COMUM", "planilhas")
+        caminho = os.path.join(diretorio, planilha[0].lower(), planilha)
+        dados = {"número": doc.numero, "mês": config.get("COMUM", "mês")}
+        descricao = config.get(doc.modelo, "descrição", True) % dados
+        valores = [i.valor for i in db.itens_de_cobranca.filter_by(documento=doc.id).select()]
+        valor = float(reduce(lambda a, b: a+b, valores))
+        atualizar_planilha(caminho, emissao, descricao, valor)
 
 if __name__ == "__main__":
     atualizar_planilha(sys.argv[1], data="12/01/2008", descricao="Cobrança 01/2008", valor=4.32)
