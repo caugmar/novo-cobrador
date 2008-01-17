@@ -76,7 +76,7 @@ def atualizar_planilha(caminho, data, descricao, valor):
     os.chdir("..")
     os.system("rm -rf %s > /dev/null 2>&1" % tempdir)
 
-def atualizar_todas_as_planilhas(emissao):
+def atualizar(emissao):
     for doc in db.documentos_de_cobranca.filter_by(data_de_emissao=emissao):
         planilha = db.empresas.select_by(nome=doc.nome)[0].planilha
         if planilha.strip == "":

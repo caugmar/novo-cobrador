@@ -6,6 +6,7 @@ from carregar import carregar
 from gerar import gerar
 from emitir import emitir
 from relatorios import relatorios
+from atualizar import atualizar
 from eliminar import eliminar
 
 if __name__ == '__main__':
@@ -21,6 +22,8 @@ if __name__ == '__main__':
                       help="codifica para impressão em CP-850 (DOS)")
     parser.add_option("-r", "--relatorios", dest="relatorios", metavar="EMISSAO",
                       help="gera os relatórios de cobrança referentes à data de EMISSAO")
+    parser.add_option("-a", "--atualizar-planilhas", dest="atualizar", metavar="EMISSAO",
+                      help="atualiza as planilhas dos clientes com os documentos referentes à data de EMISSAO")
     parser.add_option("-x", "--eliminar", dest="eliminar", metavar="EMISSAO",
                       help="remove do banco de dados os documentos referentes à data de EMISSAO")
     (options, args) = parser.parse_args()
@@ -32,6 +35,8 @@ if __name__ == '__main__':
         emitir(options.emitir, options.cp850)
     if options.relatorios: 
         relatorios(options.relatorios, options.cp850)
+    if options.atualizar: 
+        atualizar(options.atualizar)
     if options.eliminar: 
         eliminar(options.eliminar)
 
