@@ -79,11 +79,11 @@ def atualizar_planilha(caminho, data, descricao, valor):
 def atualizar(emissao):
     for doc in db.documentos_de_cobranca.filter_by(data_de_emissao=emissao):
         planilha = db.empresas.select_by(nome=doc.nome)[0].planilha
-        if planilha.strip == "":
+        if planilha.strip() == "":
             continue
         diretorio = config.get("COMUM", "planilhas")
         caminho = os.path.join(diretorio, planilha[0].lower(), planilha)
-        dados = {"número": doc.numero, "mês": config.get("COMUM", "mês")}
+        dados = {"número": doc.numero_da_nota, "mês": config.get("COMUM", "mês")}
         descricao = config.get(doc.modelo, "descrição", True) % dados
         valores = [i.valor for i in db.itens_de_cobranca.filter_by(documento=doc.id).select()]
         valor = float(reduce(lambda a, b: a+b, valores))
