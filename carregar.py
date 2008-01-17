@@ -34,7 +34,8 @@ def carregar_empresas():
                                 inscricao_estadual = registro[10],
                                 inscricao_municipal = registro[11],
                                 telefone = registro[12],
-                                email = registro[13])
+                                email = registro[13],
+                                planilha = registro[14])
     db.flush()
 
 def carregar_lancamentos():
