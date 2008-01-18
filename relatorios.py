@@ -137,7 +137,8 @@ def relatorios(emissao, cp850=False):
     tipos = sorted(list(set([i.tipo for i in db.lancamentos.all()])))
     for tipo in tipos:
         dados = []
-        titulo = config.get(tipo, "título")
+        dados_mes = {"mês-extenso": config.get("COMUM", "mês-extenso")}
+        titulo = config.get(tipo, "título", True) % dados_mes
         documentos = db.documentos_de_cobranca
         documentos = documentos.filter_by(modelo=tipo, data_de_emissao=emissao)
         documentos = documentos.order_by('numero_da_nota').all()
