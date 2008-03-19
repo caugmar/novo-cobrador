@@ -1,8 +1,8 @@
 all: recibos
 
 recibos:
-	empy --execute-file=configuracoes.py recibos-aluguel-escritorio.em > recibos
-	empy --execute-file=configuracoes.py recibos-de-aluguel.em > recibos-de-alug
+	empy --execute-file=configuracoes.py recibos-aluguel-escritorio.em > recibos-aluguel-escritorio.html
+	empy --execute-file=configuracoes.py recibos-de-aluguel.em > recibos-de-aluguel.html
 	firefox -P printing *.html 
 
 clean:
