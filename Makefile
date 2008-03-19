@@ -1,7 +1,12 @@
-all:
+all: recibos
+
+recibos:
+	empy --execute-file=configuracoes.py recibos-aluguel-escritorio.em > recibos
+	empy --execute-file=configuracoes.py recibos-de-aluguel.em > recibos-de-alug
+	firefox -P printing *.html 
 
 clean:
-	rm -rf *.pyc *~ *.sql *.autosave *.csv *.txt *.pdf
+	rm -rf *.pyc *~ *.sql *.autosave *.csv *.txt *.pdf *.html
 
 sql:
 	tedia2sql -t innodb -o cobranca.sql cobranca.dia
