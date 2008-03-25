@@ -575,7 +575,7 @@ importância líquida a cada locador.</p>
 
 <p>Para maior clareza, firmo o presente.</p>
 
-<p class="data">Ibiúna, @pgto.</p>
+<p class="data">Ibiúna, 28 de @mes_pgto.</p>
 
 <p class="assinatura">
 ___________________________________ <br />
