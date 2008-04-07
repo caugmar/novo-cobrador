@@ -152,7 +152,8 @@ Centro - Ibiúna - SP <br />
 </table>
 
 <p class="principal">                                                    
-Recebi de ANDRADE ALVES PISOS LTDA. - ME, estabelecida à Av. Ver. Benedito
+Recebi de ANDRADE ALVES PISOS LTDA. - ME, inscrita no C.N.P.J. 
+sob o n.º 08.347.797/0001-00, estabelecida à Av. Ver. Benedito
 de Campos, n.° 156-A, Ibiúna, SP, a importância líquida de R$ 467,32
 (quatrocentos e sessenta e sete reais e trinta e dois centavos) referente
 ao aluguel mensal de um salão comercial no 1.º pavimento do imóvel no
@@ -306,7 +307,8 @@ Centro - Ibiúna - SP
 </table>
 
 <p class="principal">
-Recebi de LÍDIA MEIRE BARRETO LOPES, estabelecida à Av. Ver. Benedito de
+Recebi de LÍDIA MEIRE BARRETO LOPES, inscrita no C.P.F. sob o n.º 025.891.964-74,
+estabelecida à Av. Ver. Benedito de
 Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 679,34
 (seiscentos e setenta e nove reais e trinta e quatro centavos) referente
 ao aluguel mensal de um salão comercial no 1.º pavimento do imóvel no
@@ -357,7 +359,9 @@ Centro - Ibiúna - SP
 </table>
 
 <p class="principal">
-Recebi de LÍDIA MEIRE BARRETO LOPES, estabelecida à Av. Ver. Benedito de
+Recebi de LÍDIA MEIRE BARRETO LOPES, inscrita no C.P.F. sob o 
+n.º 025.891.964-74,
+estabelecida à Av. Ver. Benedito de
 Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 378,25 (trezentos
 e setenta e oito reais e vinte cinco centavos) referente ao aluguel mensal
 de um salão comercial n.° 156-B no 1.º pavimento do imóvel no endereço
