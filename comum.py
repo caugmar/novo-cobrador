@@ -9,11 +9,10 @@ from optparse import OptionParser
 from time import localtime, strftime
 from ConfigParser import SafeConfigParser
 from decimal import Decimal
-from sqlalchemy import create_engine
 from sqlalchemy.ext.sqlsoup import SqlSoup
 
 # Conecta ao banco de dados
-db = SqlSoup(create_engine("mysql://caugm:caugm@localhost/cobranca"))
+db = SqlSoup("mysql://caugm:caugm@localhost/cobranca")
 
 # Carrega a configuração
 config = SafeConfigParser()

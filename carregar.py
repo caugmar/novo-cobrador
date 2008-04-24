@@ -12,7 +12,7 @@ def carregar_tipos():
             if not db.tipos_de_documento.select_by(mnemonico=tipo):
                 db.tipos_de_documento.insert(mnemonico=tipo, modelo=texto)
             else:
-                temp = db.tipos_de_documento.get_by(mnemonico=tipo)
+                temp = db.tipos_de_documento.get_by(mnemonico=tipo.encode("latin-1"))
                 temp.modelo = texto
     db.flush()
 
