@@ -94,15 +94,14 @@
     <tr> <td> - Desconto...R$ </td>                   <td>  50,00 </td> </tr>
     <tr> <td> + Luz (0,00%)...R$ </td>                <td>   0,00 </td> </tr>
     <tr> <td> + Água (0,00%)...R$ </td>               <td>   0,00 </td> </tr>
-    <tr> <td> + Condomínio...R$ </td>                 <td>  15,00 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2008...R$ </td>  <td>   0,00 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 315,00 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 300,00 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de LDG BRASIL LTDA. - ME, inscrita no C.N.P.J. sob o n.°
 02.412.626/0001-30, estabelecida à Av. Ver. Benedito de Campos, n.° 156,
-Ibiúna, SP, a importância líquida de R$ 315,00 (trezentos e quinze reais),
+Ibiúna, SP, a importância líquida de R$ 300,00 (trezentos reais),
 referente ao aluguel mensal de uma sala n.º 2 no 3.º pavimento do
 imóvel no endereço acima, vencido em @vcto, cabendo 33,33% da referida
 importância líquida a cada locador.</p>
@@ -198,16 +197,16 @@ Centro - Ibiúna - SP
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 150,00 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
-    <tr> <td> + Luz (10,00%)...R$ </td>               <td>  25,70 </td> </tr>
+    <tr> <td> + Luz (10,00%)...R$ </td>               <td>  25,07 </td> </tr>
     <tr> <td> + Água (10,00%)...R$ </td>              <td>   4,49 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2008...R$ </td>  <td>   7,52 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 187,71 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 187,08 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de ELIZEU MARCICANO, estabelecido à Av. Ver. Benedito de Campos,
 n.° 156, Ibiúna, SP, a importância líquida de R$ 187,71 (cento e oitenta e
-sete reais e setenta e um centavos) referente ao aluguel mensal de uma sala n.º
+sete reais e oito centavos) referente ao aluguel mensal de uma sala n.º
 4 no 2.º pavimento do imóvel no endereço acima, vencido em @vcto,
 cabendo 33,33% da referida importância líquida a cada locador.</p>
 
@@ -250,15 +249,14 @@ Centro - Ibiúna - SP
     <tr> <td> - Desconto...R$ </td>                   <td> 100,00 </td> </tr>
     <tr> <td> + Luz (0,00%)...R$ </td>                <td>   0,00 </td> </tr>
     <tr> <td> + Água (0,00%)...R$ </td>               <td>   0,00 </td> </tr>
-    <tr> <td> + Condomínio...R$ </td>                 <td>  30,00 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2008...R$ </td>  <td>  71,18 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 701,18 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 671,18 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de LDG BRASIL LTDA. - ME, inscrita no C.N.P.J. sob o n.°
 02.412.626/0001-30, estabelecida à Av. Ver. Benedito de Campos, n.° 156,
-Ibiúna, SP, a importância líquida de R$ 701,18 (setecentos e um reais e
+Ibiúna, SP, a importância líquida de R$ 671,18 (seiscentos e setenta e um reais e
 dezoito centavos) referente ao aluguel mensal das salas n.ºs 6 e 7 no 3.º
 pavimento do imóvel no endereço acima, vencido em @vcto, cabendo
 33,33% da referida importância líquida a cada locador.</p>
@@ -407,15 +405,14 @@ Centro - Ibiúna - SP
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
     <tr> <td> + Luz (0,00%)...R$ </td>                <td>   0,00 </td> </tr>
     <tr> <td> + Água (0,00%)...R$ </td>               <td>   0,00 </td> </tr>
-    <tr> <td> + Condomínio...R$ </td>                 <td>  15,00 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2008...R$ </td>  <td>   0,00 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 165,00 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 150,00 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de LDG BRASIL LTDA. - ME, inscrita no C.N.P.J. sob o n.°
 02.412.626/0001-30, estabelecida à Av. Ver. Benedito de Campos, n.° 156,
-Ibiúna, SP, a importância líquida de R$ 165,00 (cento e sessenta e cinco
+Ibiúna, SP, a importância líquida de R$ 150,00 (cento e cinqüenta
 reais) referente ao aluguel mensal de uma sala n.º 4 no 3.º pavimento do
 imóvel no endereço acima, vencido em @ldg_vcto, cabendo 33,33% da
 referida importância líquida a cada locador.</p>
@@ -456,18 +453,17 @@ Centro - Ibiúna - SP
         <col class="valor">
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 150,00 </td> </tr>
-    <tr> <td> - Desconto...R$ </td>                   <td>  50,00 </td> </tr>
+    <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
     <tr> <td> + Luz (0,00%)...R$ </td>                <td>   0,00 </td> </tr>
     <tr> <td> + Água (0,00%)...R$ </td>               <td>   0,00 </td> </tr>
-    <tr> <td> + Condomínio...R$ </td>                 <td>  15,00 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2008...R$ </td>  <td>   0,00 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 115,00 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 150,00 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de LDG BRASIL LTDA. - ME, inscrita no C.N.P.J. sob o n.°
 02.412.626/0001-30, estabelecida à Av. Ver. Benedito de Campos, n.° 156,
-Ibiúna, SP, a importância líquida de R$ 115,00 (cento e quinze reais)
+Ibiúna, SP, a importância líquida de R$ 150,00 (cento e cinqüenta reais)
 referente ao aluguel mensal de uma sala n.º 5 no 3.º pavimento do imóvel
 no endereço acima, vencido em @ldg_vcto, cabendo 33,33% da referida
 importância líquida a cada locador.</p>
@@ -564,15 +560,14 @@ Centro - Ibiúna - SP
     <tr> <td> - Desconto...R$ </td>                   <td>  50,00 </td> </tr>
     <tr> <td> + Luz (0,00%)...R$ </td>                <td>   0,00 </td> </tr>
     <tr> <td> + Água (0,00%)...R$ </td>               <td>   0,00 </td> </tr>
-    <tr> <td> + Condomínio...R$ </td>                 <td>  15,00 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2008...R$ </td>  <td>   0,00 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 215,00 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 200,00 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de LDG BRASIL LTDA. - ME, inscrita no C.N.P.J. sob o n.°
 02.412.626/0001-30, estabelecida à Av. Ver. Benedito de Campos, n.° 156,
-Ibiúna, SP, a importância líquida de R$ 215,00 (duzentos e quinze reais)
+Ibiúna, SP, a importância líquida de R$ 200,00 (duzentos reais)
 referente ao aluguel mensal de uma sala n.º 1 no 3.º pavimento do imóvel
 no endereço acima, vencido em @vcto, cabendo 33,33% da referida
 importância líquida a cada locador.</p>
@@ -615,17 +610,17 @@ Centro - Ibiúna - SP <br />
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 682,25 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>  82,25 </td> </tr>
-    <tr> <td> + Luz (40,00%)...R$ </td>               <td> 102,78 </td> </tr>
+    <tr> <td> + Luz (40,00%)...R$ </td>               <td> 100,28 </td> </tr>
     <tr> <td> + Água (30,00%)...R$ </td>              <td>  13,46 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2008...R$ </td>  <td>  29,87 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 746,11 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 743,61 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de SERVIPRODI - Serv. Proc. Dados Ibiúna Ltda. - ME, inscrita no
 C.N.P.J. sob o n.° 04.588.446/0001-30, estabelecido à Av. Ver. Benedito de
-Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 746,11
-(setecentos e quarenta e seis reais e onze centavos), referente ao
+Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 743,61
+(setecentos e quarenta e três reais e sessenta e um centavos), referente ao
 aluguel mensal de três salas, n.ºs 1, 2 e 3, no 2.º pavimento do imóvel no
 endereço acima, vencido em @vcto, cabendo 33,33% da referida
 importância líquida a cada locador.</p>

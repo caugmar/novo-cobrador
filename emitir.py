@@ -68,7 +68,8 @@ def emitir(emissao, cp850=False):
     tipos = sorted(list(set([i.tipo for i in db.lancamentos.all()])))
     for tipo in tipos:
         t = db.documentos_de_cobranca
-        dados = t.filter_by(modelo=tipo, data_de_emissao=emissao).order_by('numero_da_nota').all()
+        # dados = t.filter_by(modelo=tipo, data_de_emissao=emissao).order_by('numero_da_nota').all()
+        dados = t.filter_by(modelo=tipo, data_de_emissao=emissao).order_by('nome').all()
         for registro in dados:
             modelo = Modelo(db.tipos_de_documento.filter_by(mnemonico=tipo).one().modelo)
             modelo.subst("nome", registro.nome[:52], 52)

@@ -141,7 +141,8 @@ def relatorios(emissao, cp850=False):
         titulo = config.get(tipo, "título", True) % dados_mes
         documentos = db.documentos_de_cobranca
         documentos = documentos.filter_by(modelo=tipo, data_de_emissao=emissao)
-        documentos = documentos.order_by('numero_da_nota').all()
+        # documentos = documentos.order_by('numero_da_nota').all()
+        documentos = documentos.order_by('nome').all()
         for registro in documentos:
             linha = {'mensalidade': Decimal('0.0'),
                      'qt_trabalhistas': 0,
