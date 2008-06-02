@@ -160,7 +160,9 @@ def relatorios(emissao, cp850=False):
             for i in itens:
                 linha['total'] += i.valor
                 if i.descricao.startswith("Servi"):
-                    linha['mensalidade'] = i.valor
+                    linha['mensalidade'] += i.valor
+                if i.descricao.startswith("Registro NF Paulista"):
+                    linha['mensalidade'] += i.valor
                 elif i.descricao.startswith("Guias prev./trab."):
                     linha['qt_trabalhistas'] = i.quantidade
                     linha['trabalhistas'] = i.valor
