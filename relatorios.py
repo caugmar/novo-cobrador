@@ -84,6 +84,8 @@ class Relatorio:
         t_outros = Decimal('0.0')
         t_total = Decimal('0.0')
         for linha in self.dados:
+            linha['qt_outros'] = 0
+            linha['outros'] = Decimal('0.0')
             t_mensalidade += linha['mensalidade']
             t_qt_fiscais += linha['qt_fiscais']
             t_fiscais += linha['fiscais']
