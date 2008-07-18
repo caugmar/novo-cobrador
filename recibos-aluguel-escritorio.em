@@ -144,7 +144,7 @@ Centro - Ibiúna - SP
 <h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
 
 <p>Recebi de LBM - ESCRITÓRIO DE SERVIÇOS IBIÚNA LTDA. - ME, firma estabelecida
-à Avenida Vereador Benedito de Campos, n.º 156, 1.º andar, salas 5 e 6, Ibiúna,
+à Avenida Vereador Benedito de Campos, n.º 156, 1.º andar, sala 6, Ibiúna,
 SP, CNPJ n.º 05.296.042/0001-35, a importância líquida de R$ 50,00 (cinqüenta
 reais), referente ao aluguel mensal de salas comerciais no 2.º pavimento do
 imóvel acima, vencido em @vencimento.</p>
