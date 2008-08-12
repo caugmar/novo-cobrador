@@ -197,16 +197,16 @@ Centro - Ibiúna - SP
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 150,00 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
-    <tr> <td> + Luz (10,00%)...R$ </td>               <td>  25,07 </td> </tr>
+    <tr> <td> + Luz (10,00%)...R$ </td>               <td>  23,74 </td> </tr>
     <tr> <td> + Água (10,00%)...R$ </td>              <td>   4,49 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2008...R$ </td>  <td>   7,52 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 187,08 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 185,75 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de ELIZEU MARCICANO, estabelecido à Av. Ver. Benedito de Campos,
-n.° 156, Ibiúna, SP, a importância líquida de R$ 187,71 (cento e oitenta e
-sete reais e oito centavos) referente ao aluguel mensal de uma sala n.º
+n.° 156, Ibiúna, SP, a importância líquida de R$ 185,75 (cento e oitenta e
+cinco reais e setenta e cinco centavos) referente ao aluguel mensal de uma sala n.º
 4 no 2.º pavimento do imóvel no endereço acima, vencido em @vcto,
 cabendo 33,33% da referida importância líquida a cada locador.</p>
 
@@ -610,17 +610,17 @@ Centro - Ibiúna - SP <br />
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 682,25 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>  82,25 </td> </tr>
-    <tr> <td> + Luz (40,00%)...R$ </td>               <td>  99,22 </td> </tr>
-    <tr> <td> + Água (30,00%)...R$ </td>              <td>  15,05 </td> </tr>
+    <tr> <td> + Luz (40,00%)...R$ </td>               <td>  94,96 </td> </tr>
+    <tr> <td> + Água (30,00%)...R$ </td>              <td>  13,46 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2008...R$ </td>  <td>  29,87 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 744,14 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 738,29 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de SERVIPRODI - Serv. Proc. Dados Ibiúna Ltda. - ME, inscrita no
 C.N.P.J. sob o n.° 04.588.446/0001-30, estabelecido à Av. Ver. Benedito de
-Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 744,14
-(setecentos e quarenta e quatro reais e quatorze centavos), referente ao
+Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 738,29
+(setecentos e trinta e oito reais e vinte nove centavos), referente ao
 aluguel mensal de três salas, n.ºs 1, 2 e 3, no 2.º pavimento do imóvel no
 endereço acima, vencido em @vcto, cabendo 33,33% da referida
 importância líquida a cada locador.</p>
