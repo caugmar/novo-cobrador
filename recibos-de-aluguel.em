@@ -77,12 +77,12 @@
 </head>
 <body>
 
-@empy.startDiversion("LDG2")
+@empy.startDiversion("LDG")
 
 <h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
 <div class="notas">
     <p><strong>@mes_vcto</strong></p>
-    <p>LÍQUIDO: R$ 300,00 MENSAL</p>
+    <p>LÍQUIDO: R$ 1.471,18 MENSAL</p>
 </div>
 
 <table class="detalhes">
@@ -90,21 +90,21 @@
         <col class="desc">
         <col class="valor">
     </colgroup>
-    <tr> <td> Valor...R$ </td>                        <td> 350,00 </td> </tr>
-    <tr> <td> - Desconto...R$ </td>                   <td>  50,00 </td> </tr>
-    <tr> <td> + Luz (0,00%)...R$ </td>                <td>   0,00 </td> </tr>
-    <tr> <td> + Água (0,00%)...R$ </td>               <td>   0,00 </td> </tr>
-    <tr> <td> + Parcela @iptu - IPTU/2008...R$ </td>  <td>   0,00 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 300,00 </td> </tr>
+    <tr> <td> Valor...R$ </td>                        <td> 1.600,00 </td> </tr>
+    <tr> <td> - Desconto...R$ </td>                   <td>   200,00 </td> </tr>
+    <tr> <td> + Luz (0,00%)...R$ </td>                <td>     0,00 </td> </tr>
+    <tr> <td> + Água (0,00%)...R$ </td>               <td>     0,00 </td> </tr>
+    <tr> <td> + Parcela @iptu - IPTU/2008...R$ </td>  <td>    71,18 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 1.471,18 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de LDG BRASIL LTDA. - ME, inscrita no C.N.P.J. sob o n.°
 02.412.626/0001-30, estabelecida à Av. Ver. Benedito de Campos, n.° 156,
-Ibiúna, SP, a importância líquida de R$ 300,00 (trezentos reais),
-referente ao aluguel mensal de uma sala n.º 2 no 3.º pavimento do
-imóvel no endereço acima, vencido em @vcto, cabendo 33,33% da referida
-importância líquida a cada locador.</p>
+Ibiúna, SP, a importância líquida de R$ 1.471,18 (um mil quatrocentos e setenta
+e um reais e dezoito centavos), referente ao aluguel mensal das salas n.ºs 1,
+2, 4, 5, 6 e 7 no 3.º pavimento do imóvel no endereço acima, vencido em @vcto,
+cabendo 33,33% da referida importância líquida a cada locador.</p>
 
 <p>Para maior clareza, firmo o presente.</p>
 
@@ -119,15 +119,14 @@ ELIZEU MARCICANO E OUTROS
 ELIZEU MARCICANO E OUTROS <br />
 Avenida Vereador Benedito de Campos, 156 <br />
 Centro - Ibiúna - SP <br /> 
-<em>Obs.: Adelaide saiu em 15/02/2008.</em>
 </div>
 
 <p class="periodo">Período do Contrato de Locação: 16/02/2008 a 15/02/2009</p>
 
 @empy.stopDiverting()
-@empy.replayDiversion("LDG2")
+@empy.replayDiversion("LDG")
 <hr />
-@empy.replayDiversion("LDG2")
+@empy.replayDiversion("LDG")
 <br class="page-break" />
 
 @empy.startDiversion("ANDRADE")
@@ -197,16 +196,16 @@ Centro - Ibiúna - SP
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 150,00 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
-    <tr> <td> + Luz (10,00%)...R$ </td>               <td>  23,74 </td> </tr>
-    <tr> <td> + Água (10,00%)...R$ </td>              <td>   4,49 </td> </tr>
+    <tr> <td> + Luz (10,00%)...R$ </td>               <td>  23,30 </td> </tr>
+    <tr> <td> + Água (10,00%)...R$ </td>              <td>   5,02 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2008...R$ </td>  <td>   7,52 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 185,75 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 185,84 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de ELIZEU MARCICANO, estabelecido à Av. Ver. Benedito de Campos,
-n.° 156, Ibiúna, SP, a importância líquida de R$ 185,75 (cento e oitenta e
-cinco reais e setenta e cinco centavos) referente ao aluguel mensal de uma sala n.º
+n.° 156, Ibiúna, SP, a importância líquida de R$ 185,84 (cento e oitenta e
+cinco reais e oitenta e quatro centavos) referente ao aluguel mensal de uma sala n.º
 4 no 2.º pavimento do imóvel no endereço acima, vencido em @vcto,
 cabendo 33,33% da referida importância líquida a cada locador.</p>
 
@@ -231,57 +230,6 @@ Centro - Ibiúna - SP
 @empy.replayDiversion("ELIZEU")
 <hr />
 @empy.replayDiversion("ELIZEU")
-<br class="page-break" />
-
-@empy.startDiversion("LDG67")
-
-<h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
-<div class="notas">
-    <p><strong>@mes_vcto</strong></p>
-</div>
-
-<table class="detalhes">
-    <colgroup>
-        <col class="desc">
-        <col class="valor">
-    </colgroup>
-    <tr> <td> Valor...R$ </td>                        <td> 700,00 </td> </tr>
-    <tr> <td> - Desconto...R$ </td>                   <td> 100,00 </td> </tr>
-    <tr> <td> + Luz (0,00%)...R$ </td>                <td>   0,00 </td> </tr>
-    <tr> <td> + Água (0,00%)...R$ </td>               <td>   0,00 </td> </tr>
-    <tr> <td> + Parcela @iptu - IPTU/2008...R$ </td>  <td>  71,18 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 671,18 </td> </tr>
-</table>
-
-<p class="principal">
-Recebi de LDG BRASIL LTDA. - ME, inscrita no C.N.P.J. sob o n.°
-02.412.626/0001-30, estabelecida à Av. Ver. Benedito de Campos, n.° 156,
-Ibiúna, SP, a importância líquida de R$ 671,18 (seiscentos e setenta e um reais e
-dezoito centavos) referente ao aluguel mensal das salas n.ºs 6 e 7 no 3.º
-pavimento do imóvel no endereço acima, vencido em @vcto, cabendo
-33,33% da referida importância líquida a cada locador.</p>
-
-<p>Para maior clareza, firmo o presente.</p>
-
-<p class="data">Ibiúna, 28 de @mes_pgto.</p>
-
-<p class="assinatura">
-___________________________________ <br />
-ELIZEU MARCICANO E OUTROS
-</p>
-
-<div class="fim">
-ELIZEU MARCICANO E OUTROS <br />
-Avenida Vereador Benedito de Campos, 156 <br />
-Centro - Ibiúna - SP
-</div>
-
-<p class="periodo">Período do Contrato de Locação: 01/07/2007 a 30/06/2008</p>
-
-@empy.stopDiverting()
-@empy.replayDiversion("LDG67")
-<hr />
-@empy.replayDiversion("LDG67")
 <br class="page-break" />
 
 @empy.startDiversion("LIDIA1")
@@ -389,108 +337,6 @@ Centro - Ibiúna - SP
 @empy.replayDiversion("LIDIA2")
 <br class="page-break" />
 
-@empy.startDiversion("LDG4")
-
-<h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
-<div class="notas">
-    <p><strong>@ldg_periodo_vcto</strong></p>
-</div>
-
-<table class="detalhes">
-    <colgroup>
-        <col class="desc">
-        <col class="valor">
-    </colgroup>
-    <tr> <td> Valor...R$ </td>                        <td> 150,00 </td> </tr>
-    <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
-    <tr> <td> + Luz (0,00%)...R$ </td>                <td>   0,00 </td> </tr>
-    <tr> <td> + Água (0,00%)...R$ </td>               <td>   0,00 </td> </tr>
-    <tr> <td> + Parcela @iptu - IPTU/2008...R$ </td>  <td>   0,00 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 150,00 </td> </tr>
-</table>
-
-<p class="principal">
-Recebi de LDG BRASIL LTDA. - ME, inscrita no C.N.P.J. sob o n.°
-02.412.626/0001-30, estabelecida à Av. Ver. Benedito de Campos, n.° 156,
-Ibiúna, SP, a importância líquida de R$ 150,00 (cento e cinqüenta
-reais) referente ao aluguel mensal de uma sala n.º 4 no 3.º pavimento do
-imóvel no endereço acima, vencido em @ldg_vcto, cabendo 33,33% da
-referida importância líquida a cada locador.</p>
-
-<p>Para maior clareza, firmo o presente.</p>
-
-<p class="data">Ibiúna, 28 de @mes_pgto.</p>
-
-<p class="assinatura">
-___________________________________ <br />
-ELIZEU MARCICANO E OUTROS
-</p>
-
-<div class="fim">
-ELIZEU MARCICANO E OUTROS <br />
-Avenida Vereador Benedito de Campos, 156 <br />
-Centro - Ibiúna - SP
-</div>
-
-<p class="periodo">Período do Contrato de Locação: 20/01/2008 a 19/01/2009</p>
-
-@empy.stopDiverting()
-@empy.replayDiversion("LDG4")
-<hr />
-@empy.replayDiversion("LDG4")
-<br class="page-break" />
-
-@empy.startDiversion("LDG5")
-
-<h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
-<div class="notas">
-    <p><strong>@ldg_periodo_vcto</strong></p>
-</div>
-
-<table class="detalhes">
-    <colgroup>
-        <col class="desc">
-        <col class="valor">
-    </colgroup>
-    <tr> <td> Valor...R$ </td>                        <td> 150,00 </td> </tr>
-    <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
-    <tr> <td> + Luz (0,00%)...R$ </td>                <td>   0,00 </td> </tr>
-    <tr> <td> + Água (0,00%)...R$ </td>               <td>   0,00 </td> </tr>
-    <tr> <td> + Parcela @iptu - IPTU/2008...R$ </td>  <td>   0,00 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 150,00 </td> </tr>
-</table>
-
-<p class="principal">
-Recebi de LDG BRASIL LTDA. - ME, inscrita no C.N.P.J. sob o n.°
-02.412.626/0001-30, estabelecida à Av. Ver. Benedito de Campos, n.° 156,
-Ibiúna, SP, a importância líquida de R$ 150,00 (cento e cinqüenta reais)
-referente ao aluguel mensal de uma sala n.º 5 no 3.º pavimento do imóvel
-no endereço acima, vencido em @ldg_vcto, cabendo 33,33% da referida
-importância líquida a cada locador.</p>
-
-<p>Para maior clareza, firmo o presente.</p>
-
-<p class="data">Ibiúna, 28 de @mes_pgto.</p>
-
-<p class="assinatura">
-___________________________________ <br />
-ELIZEU MARCICANO E OUTROS
-</p>
-
-<div class="fim">
-ELIZEU MARCICANO E OUTROS <br />
-Avenida Vereador Benedito de Campos, 156 <br />
-Centro - Ibiúna - SP
-</div>
-
-<p class="periodo">Período do Contrato de Locação: 01/10/2007 a 30/09/2008</p>
-
-@empy.stopDiverting()
-@empy.replayDiversion("LDG5")
-<hr />
-@empy.replayDiversion("LDG5")
-<br class="page-break" />
-
 @empy.startDiversion("MOVETAKER")
 
 <h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
@@ -543,59 +389,6 @@ Centro - Ibiúna - SP
 @empy.replayDiversion("MOVETAKER")
 <br class="page-break" />
 
-@empy.startDiversion("LDG1")
-
-<h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
-<div class="notas">
-    <p><strong>@mes_vcto</strong></p>
-    <p>LÍQUIDO: R$ 200,00 MENSAL</p>
-</div>
-
-<table class="detalhes">
-    <colgroup>
-        <col class="desc">
-        <col class="valor">
-    </colgroup>
-    <tr> <td> Valor...R$ </td>                        <td> 250,00 </td> </tr>
-    <tr> <td> - Desconto...R$ </td>                   <td>  50,00 </td> </tr>
-    <tr> <td> + Luz (0,00%)...R$ </td>                <td>   0,00 </td> </tr>
-    <tr> <td> + Água (0,00%)...R$ </td>               <td>   0,00 </td> </tr>
-    <tr> <td> + Parcela @iptu - IPTU/2008...R$ </td>  <td>   0,00 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 200,00 </td> </tr>
-</table>
-
-<p class="principal">
-Recebi de LDG BRASIL LTDA. - ME, inscrita no C.N.P.J. sob o n.°
-02.412.626/0001-30, estabelecida à Av. Ver. Benedito de Campos, n.° 156,
-Ibiúna, SP, a importância líquida de R$ 200,00 (duzentos reais)
-referente ao aluguel mensal de uma sala n.º 1 no 3.º pavimento do imóvel
-no endereço acima, vencido em @vcto, cabendo 33,33% da referida
-importância líquida a cada locador.</p>
-
-<p>Para maior clareza, firmo o presente.</p>
-
-<p class="data">Ibiúna, 28 de @mes_pgto.</p>
-
-<p class="assinatura">
-___________________________________ <br />
-ELIZEU MARCICANO E OUTROS
-</p>
-
-<div class="fim">
-ELIZEU MARCICANO E OUTROS <br />
-Avenida Vereador Benedito de Campos, 156 <br />
-Centro - Ibiúna - SP <br /> 
-<em>Obs.: Reginato saiu em 31/01/2008.</em>
-</div>
-
-<p class="periodo">Período do Contrato de Locação: 1.º/02/2008 a 31/01/2009</p>
-
-@empy.stopDiverting()
-@empy.replayDiversion("LDG1")
-<hr />
-@empy.replayDiversion("LDG1")
-<br class="page-break" />
-
 @empy.startDiversion("SERVIPRODI")
 
 <h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
@@ -610,17 +403,17 @@ Centro - Ibiúna - SP <br />
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 682,25 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>  82,25 </td> </tr>
-    <tr> <td> + Luz (40,00%)...R$ </td>               <td>  94,96 </td> </tr>
-    <tr> <td> + Água (30,00%)...R$ </td>              <td>  13,46 </td> </tr>
+    <tr> <td> + Luz (40,00%)...R$ </td>               <td>  93,18 </td> </tr>
+    <tr> <td> + Água (30,00%)...R$ </td>              <td>  15,05 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2008...R$ </td>  <td>  29,87 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 738,29 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 738,10 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de SERVIPRODI - Serv. Proc. Dados Ibiúna Ltda. - ME, inscrita no
 C.N.P.J. sob o n.° 04.588.446/0001-30, estabelecido à Av. Ver. Benedito de
-Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 738,29
-(setecentos e trinta e oito reais e vinte nove centavos), referente ao
+Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 738,10
+(setecentos e trinta e oito reais e dez centavos), referente ao
 aluguel mensal de três salas, n.ºs 1, 2 e 3, no 2.º pavimento do imóvel no
 endereço acima, vencido em @vcto, cabendo 33,33% da referida
 importância líquida a cada locador.</p>
