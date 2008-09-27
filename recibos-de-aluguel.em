@@ -240,19 +240,18 @@ Centro - Ibiúna - SP <br />
         <col class="desc">
         <col class="valor">
     </colgroup>
-    <tr> <td> Valor...R$ </td>                        <td> 650,00 </td> </tr>
+    <tr> <td> Valor...R$ </td>                        <td> 698,00 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
     <tr> <td> + Luz (0,00%)...R$ </td>                <td>   0,00 </td> </tr>
     <tr> <td> + Água (0,00%)...R$ </td>               <td>   0,00 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2008...R$ </td>  <td>  29,34 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 679,34 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 728,09 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de LÍDIA MEIRE BARRETO LOPES, inscrita no C.P.F. sob o n.º 025.891.964-74,
-estabelecida à Av. Ver. Benedito de
-Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 679,34
-(seiscentos e setenta e nove reais e trinta e quatro centavos) referente
+estabelecida à Av. Ver. Benedito de Campos, n.° 156, Ibiúna, SP, a importância líquida de 
+R$ 728,09 (setecentos e vinte e oito reais e nove centavos) referente
 ao aluguel mensal de um salão comercial no 1.º pavimento do imóvel no
 endereço acima, vencido em @lidia_vcto, cabendo 33,33% da referida
 importância líquida a cada locador.</p>
@@ -291,20 +290,20 @@ Centro - Ibiúna - SP
         <col class="desc">
         <col class="valor">
     </colgroup>
-    <tr> <td> Valor...R$ </td>                        <td> 350,00 </td> </tr>
+    <tr> <td> Valor...R$ </td>                        <td> 376,25 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
     <tr> <td> + Luz (0,00%)...R$ </td>                <td>   0,00 </td> </tr>
     <tr> <td> + Água (0,00%)...R$ </td>               <td>   0,00 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2008...R$ </td>  <td>  28,25 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 378,25 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 404,50 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de LÍDIA MEIRE BARRETO LOPES, inscrita no C.P.F. sob o 
 n.º 025.891.964-74,
 estabelecida à Av. Ver. Benedito de
-Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 378,25 (trezentos
-e setenta e oito reais e vinte cinco centavos) referente ao aluguel mensal
+Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 404,50 (quatrocentos
+e quatro reais e cinqüenta centavos) referente ao aluguel mensal
 de um salão comercial n.° 156-B no 1.º pavimento do imóvel no endereço
 acima, vencido em @vcto, cabendo 33,33% da referida importância
 líquida a cada locador.</p>
@@ -396,17 +395,17 @@ Centro - Ibiúna - SP
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 682,25 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>  82,25 </td> </tr>
-    <tr> <td> + Luz (40,00%)...R$ </td>               <td>  93,18 </td> </tr>
-    <tr> <td> + Água (30,00%)...R$ </td>              <td>  15,05 </td> </tr>
+    <tr> <td> + Luz (40,00%)...R$ </td>               <td> 100,81 </td> </tr>
+    <tr> <td> + Água (30,00%)...R$ </td>              <td>  13,46 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2008...R$ </td>  <td>  29,87 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 738,10 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 744,14 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de SERVIPRODI - Serv. Proc. Dados Ibiúna Ltda. - ME, inscrita no
 C.N.P.J. sob o n.° 04.588.446/0001-30, estabelecido à Av. Ver. Benedito de
-Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 738,10
-(setecentos e trinta e oito reais e dez centavos), referente ao
+Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 744,14
+(setecentos e quarenta e quatro reais e quatorze centavos), referente ao
 aluguel mensal de três salas, n.ºs 1, 2 e 3, no 2.º pavimento do imóvel no
 endereço acima, vencido em @vcto, cabendo 33,33% da referida
 importância líquida a cada locador.</p>
