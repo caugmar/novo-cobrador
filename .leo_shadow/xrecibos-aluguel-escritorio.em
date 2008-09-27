@@ -1,3 +1,9 @@
+#--unknown-language--@+leo-ver=4-thin-encoding=iso-8859-1,.
+#--unknown-language--@+node:caugm.20080927143105.1:@shadow recibos-aluguel-escritorio.em
+#--unknown-language--@@language html
+#--unknown-language--@@encoding iso-8859-1
+#--unknown-language--@+others
+#--unknown-language--@+node:caugm.20080927144654.5:Cabeçalho da Página
 <html>
 <head>
     <meta http-equiv="CONTENT-TYPE" content="text/html; charset=iso-8859-1">
@@ -39,6 +45,9 @@
     </style>
 </head>
 <body>
+#--unknown-language--@nonl
+#--unknown-language--@-node:caugm.20080927144654.5:Cabeçalho da Página
+#--unknown-language--@+node:caugm.20080927144654.6:Minister Serviços Contábeis Ltda.
 @empy.startDiversion("minister")
 
 <h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
@@ -54,6 +63,7 @@ imóvel acima, vencido em @vencimento.</p>
 <p class="data">Ibiúna, @pagamento.</p>
 
 @empy.stopDiverting()
+#--unknown-language--@+node:caugm.20080927144654.10:José Antônio Marcicano
 @empy.replayDiversion("minister")
 
 <p class="assinatura">
@@ -67,6 +77,9 @@ CIC n.° 238.514.658-49 <br />
 Rua Doutor Gabriel Monteiro da Silva, 297 <br />
 Centro - Ibiúna - SP
 </p>
+#--unknown-language--@nonl
+#--unknown-language--@-node:caugm.20080927144654.10:José Antônio Marcicano
+#--unknown-language--@+node:caugm.20080927144654.11:Elizeu Marcicano
 @empy.replayDiversion("minister")
 
 <p class="assinatura">
@@ -80,6 +93,9 @@ CIC n.° 038.457.708-30 <br />
 Rua Cirineu Soares de Campos, 220 <br />
 Centro - Ibiúna - SP
 </p>
+#--unknown-language--@nonl
+#--unknown-language--@-node:caugm.20080927144654.11:Elizeu Marcicano
+#--unknown-language--@+node:caugm.20080927144654.12:Celso Marcicano
 @empy.replayDiversion("minister")
 
 <p class="assinatura">
@@ -93,6 +109,10 @@ CIC n.° 038.457.458-00 <br />
 Rua Benjamin Constant, 245 <br />
 Centro - Ibiúna - SP
 </p>
+#--unknown-language--@nonl
+#--unknown-language--@-node:caugm.20080927144654.12:Celso Marcicano
+#--unknown-language--@-node:caugm.20080927144654.6:Minister Serviços Contábeis Ltda.
+#--unknown-language--@+node:caugm.20080927144654.7:Agro Comercial Takafuji Ltda.
 @empy.startDiversion("takafuji")
 
 <h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
@@ -107,6 +127,7 @@ salão comercial no endereço acima, vencido em @vencimento.</p>
 <p class="data">Ibiúna, @pagamento.</p>
 
 @empy.stopDiverting()
+#--unknown-language--@+node:caugm.20080927144654.13:Eiji Takafuji
 @empy.replayDiversion("takafuji")
 
 <p class="assinatura">
@@ -120,6 +141,9 @@ CIC n.° 187.029.708-30 <br />
 Rua José Eugênio Machado, n.º 595 <br />
 Centro - Ibiúna - SP
 </p>
+#--unknown-language--@nonl
+#--unknown-language--@-node:caugm.20080927144654.13:Eiji Takafuji
+#--unknown-language--@+node:caugm.20080927144654.14:Abigail Luiza de Moraes Takafuji
 @empy.replayDiversion("takafuji")
 
 <p class="assinatura">
@@ -133,6 +157,10 @@ CIC n.° 039.466.688-79 <br />
 Rua José Eugênio Machado, n.º 595 <br />
 Centro - Ibiúna - SP
 </p>
+#--unknown-language--@nonl
+#--unknown-language--@-node:caugm.20080927144654.14:Abigail Luiza de Moraes Takafuji
+#--unknown-language--@-node:caugm.20080927144654.7:Agro Comercial Takafuji Ltda.
+#--unknown-language--@+node:caugm.20080927144654.8:LBM - Escritório de Serviços Ltda. - ME
 @empy.startDiversion("lbm")
 
 <h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
@@ -148,6 +176,7 @@ imóvel acima, vencido em @vencimento.</p>
 <p class="data">Ibiúna, @pagamento.</p>
 
 @empy.stopDiverting()
+#--unknown-language--@+node:caugm.20080927144654.15:José Antônio Marcicano
 @empy.replayDiversion("lbm")
 
 <p class="assinatura">
@@ -161,6 +190,9 @@ CIC n.° 238.514.658-49 <br />
 Rua Doutor Gabriel Monteiro da Silva, 297 <br />
 Centro - Ibiúna - SP
 </p>
+#--unknown-language--@nonl
+#--unknown-language--@-node:caugm.20080927144654.15:José Antônio Marcicano
+#--unknown-language--@+node:caugm.20080927144654.16:Elizeu Marcicano
 @empy.replayDiversion("lbm")
 
 <p class="assinatura">
@@ -174,6 +206,9 @@ CIC n.° 038.457.708-30 <br />
 Rua Cirineu Soares de Campos, 220 <br />
 Centro - Ibiúna - SP
 </p>
+#--unknown-language--@nonl
+#--unknown-language--@-node:caugm.20080927144654.16:Elizeu Marcicano
+#--unknown-language--@+node:caugm.20080927144654.17:Celso Marcicano
 @empy.replayDiversion("lbm")
 
 <p class="assinatura">
@@ -187,5 +222,15 @@ CIC n.° 038.457.458-00 <br />
 Rua Benjamin Constant, 245 <br />
 Centro - Ibiúna - SP
 </p>
+#--unknown-language--@nonl
+#--unknown-language--@-node:caugm.20080927144654.17:Celso Marcicano
+#--unknown-language--@-node:caugm.20080927144654.8:LBM - Escritório de Serviços Ltda. - ME
+#--unknown-language--@+node:caugm.20080927144654.9:Rodapé da Página
 </body>
 </html>
+#--unknown-language--@nonl
+#--unknown-language--@-node:caugm.20080927144654.9:Rodapé da Página
+#--unknown-language--@-others
+#--unknown-language--@nonl
+#--unknown-language--@-node:caugm.20080927143105.1:@shadow recibos-aluguel-escritorio.em
+#--unknown-language--@-leo

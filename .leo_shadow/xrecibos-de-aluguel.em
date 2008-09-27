@@ -1,3 +1,9 @@
+#--unknown-language--@+leo-ver=4-thin-encoding=iso-8859-1,.
+#--unknown-language--@+node:caugm.20080927142342.2:@shadow recibos-de-aluguel.em
+#--unknown-language--@@language html
+#--unknown-language--@@encoding iso-8859-1
+#--unknown-language--@+others
+#--unknown-language--@+node:caugm.20080927143714.1:Cabeçalho da Página
 <html>
 <head>
     <meta http-equiv="CONTENT-TYPE" content="text/html; charset=iso-8859-1">
@@ -76,6 +82,8 @@
     </style>
 </head>
 <body>
+#--unknown-language--@-node:caugm.20080927143714.1:Cabeçalho da Página
+#--unknown-language--@+node:caugm.20080927143714.3:Andrade Alves Pisos Ltda.
 @empy.startDiversion("ANDRADE")
 
 <h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
@@ -128,6 +136,8 @@ Centro - Ibiúna - SP
 <hr />
 @empy.replayDiversion("ANDRADE")
 <br class="page-break" />
+#--unknown-language--@-node:caugm.20080927143714.3:Andrade Alves Pisos Ltda.
+#--unknown-language--@+node:caugm.20080927143714.4:Elizeu Marcicano
 @empy.startDiversion("ELIZEU")
 
 <h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
@@ -177,6 +187,8 @@ Centro - Ibiúna - SP
 <hr />
 @empy.replayDiversion("ELIZEU")
 <br class="page-break" />
+#--unknown-language--@-node:caugm.20080927143714.4:Elizeu Marcicano
+#--unknown-language--@+node:caugm.20080927143714.2:LDG Brasil Ltda. - ME
 @empy.startDiversion("LDG")
 
 <h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
@@ -228,6 +240,8 @@ Centro - Ibiúna - SP <br />
 <hr />
 @empy.replayDiversion("LDG")
 <br class="page-break" />
+#--unknown-language--@-node:caugm.20080927143714.2:LDG Brasil Ltda. - ME
+#--unknown-language--@+node:caugm.20080927143714.5:Lídia Meire Barreto Lopes - salão 1
 @empy.startDiversion("LIDIA1")
 
 <h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
@@ -279,6 +293,8 @@ Centro - Ibiúna - SP
 <hr />
 @empy.replayDiversion("LIDIA1")
 <br class="page-break" />
+#--unknown-language--@-node:caugm.20080927143714.5:Lídia Meire Barreto Lopes - salão 1
+#--unknown-language--@+node:caugm.20080927143714.6:Lidia Meire Barreto Lopes - salão 2
 @empy.startDiversion("LIDIA2")
 
 <h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
@@ -331,6 +347,8 @@ Centro - Ibiúna - SP
 <hr />
 @empy.replayDiversion("LIDIA2")
 <br class="page-break" />
+#--unknown-language--@-node:caugm.20080927143714.6:Lidia Meire Barreto Lopes - salão 2
+#--unknown-language--@+node:caugm.20080927143714.7:Movetaker Comunicação Ltda.
 @empy.startDiversion("MOVETAKER")
 
 <h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
@@ -382,6 +400,8 @@ Centro - Ibiúna - SP
 <hr />
 @empy.replayDiversion("MOVETAKER")
 <br class="page-break" />
+#--unknown-language--@-node:caugm.20080927143714.7:Movetaker Comunicação Ltda.
+#--unknown-language--@+node:caugm.20080927143714.8:SERVIPRODI - Serviços de Processamento de Dados Ibiúna Ltda. - ME
 @empy.startDiversion("SERVIPRODI")
 
 <h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
@@ -433,5 +453,12 @@ Centro - Ibiúna - SP
 <hr />
 @empy.replayDiversion("SERVIPRODI")
 <br class="page-break" />
+#--unknown-language--@-node:caugm.20080927143714.8:SERVIPRODI - Serviços de Processamento de Dados Ibiúna Ltda. - ME
+#--unknown-language--@+node:caugm.20080927143714.9:Rodapé da Página
 </body>
 </html>
+#--unknown-language--@nonl
+#--unknown-language--@-node:caugm.20080927143714.9:Rodapé da Página
+#--unknown-language--@-others
+#--unknown-language--@-node:caugm.20080927142342.2:@shadow recibos-de-aluguel.em
+#--unknown-language--@-leo
