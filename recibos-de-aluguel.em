@@ -78,7 +78,6 @@
 <body>
 @empy.startDiversion("ANDRADE")
 
-<h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
 <div class="notas">
     <p><strong>@mes_vcto</strong></p>
 </div>
@@ -124,13 +123,18 @@ Centro - Ibiúna - SP
 
 
 @empy.stopDiverting()
+
+<h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
+
 @empy.replayDiversion("ANDRADE")
 <hr />
+
+<h1>AVISO DE ALUGUEL DE IMÓVEL</h1>
+
 @empy.replayDiversion("ANDRADE")
 <br class="page-break" />
 @empy.startDiversion("ELIZEU")
 
-<h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
 <div class="notas">
     <p><strong>@mes_vcto</strong></p>
 </div>
@@ -142,15 +146,15 @@ Centro - Ibiúna - SP
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 150,00 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
-    <tr> <td> + Luz (10,00%)...R$ </td>               <td>  23,30 </td> </tr>
-    <tr> <td> + Água (10,00%)...R$ </td>              <td>   5,02 </td> </tr>
+    <tr> <td> + Luz (10,00%)...R$ </td>               <td>  25,20 </td> </tr>
+    <tr> <td> + Água (10,00%)...R$ </td>              <td>   4,48 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2008...R$ </td>  <td>   7,52 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 185,84 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 187,20 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de ELIZEU MARCICANO, estabelecido à Av. Ver. Benedito de Campos,
-n.° 156, Ibiúna, SP, a importância líquida de R$ 185,84 (cento e oitenta e
+n.° 156, Ibiúna, SP, a importância líquida de R$ 187,20 (cento e oitenta e
 cinco reais e oitenta e quatro centavos) referente ao aluguel mensal de uma sala n.º
 4 no 2.º pavimento do imóvel no endereço acima, vencido em @vcto,
 cabendo 33,33% da referida importância líquida a cada locador.</p>
@@ -173,13 +177,18 @@ Centro - Ibiúna - SP
 <p class="periodo">Período do Contrato de Locação: 01/10/2007 a 30/09/2008</p>
 
 @empy.stopDiverting()
+
+<h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
+
 @empy.replayDiversion("ELIZEU")
 <hr />
+
+<h1>AVISO DE ALUGUEL DE IMÓVEL</h1>
+
 @empy.replayDiversion("ELIZEU")
 <br class="page-break" />
 @empy.startDiversion("LDG")
 
-<h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
 <div class="notas">
     <p><strong>@mes_vcto</strong></p>
     <p>LÍQUIDO: R$ 1.471,18 MENSAL</p>
@@ -221,16 +230,21 @@ Avenida Vereador Benedito de Campos, 156 <br />
 Centro - Ibiúna - SP <br /> 
 </div>
 
-<p class="periodo">Período do Contrato de Locação: 16/02/2008 a 15/02/2009</p>
+<p class="periodo">Período do Contrato de Locação: ver contratos individuais</p>
 
 @empy.stopDiverting()
+
+<h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
+
 @empy.replayDiversion("LDG")
 <hr />
+
+<h1>AVISO DE ALUGUEL DE IMÓVEL</h1>
+
 @empy.replayDiversion("LDG")
 <br class="page-break" />
 @empy.startDiversion("LIDIA1")
 
-<h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
 <div class="notas">
     <p><strong>@lidia_mes_vcto</strong></p>
 </div>
@@ -240,7 +254,7 @@ Centro - Ibiúna - SP <br />
         <col class="desc">
         <col class="valor">
     </colgroup>
-    <tr> <td> Valor...R$ </td>                        <td> 698,00 </td> </tr>
+    <tr> <td> Valor...R$ </td>                        <td> 698,75 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
     <tr> <td> + Luz (0,00%)...R$ </td>                <td>   0,00 </td> </tr>
     <tr> <td> + Água (0,00%)...R$ </td>               <td>   0,00 </td> </tr>
@@ -274,13 +288,18 @@ Centro - Ibiúna - SP
 <p class="periodo">Vencimento no 20.° dia do 3.º mês subseqüente - Período do Contrato de Locação: 01/04/2007 a 31/03/2008</p>
 
 @empy.stopDiverting()
+
+<h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
+
 @empy.replayDiversion("LIDIA1")
 <hr />
+
+<h1>AVISO DE ALUGUEL DE IMÓVEL</h1>
+
 @empy.replayDiversion("LIDIA1")
 <br class="page-break" />
 @empy.startDiversion("LIDIA2")
 
-<h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
 <div class="notas">
     <p><strong>@mes_vcto</strong></p>
 </div>
@@ -326,13 +345,18 @@ Centro - Ibiúna - SP
 <p class="periodo">Período do Contrato de Locação: 01/07/2007 a 30/06/2008</p>
                   
 @empy.stopDiverting()
+
+<h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
+
 @empy.replayDiversion("LIDIA2")
 <hr />
+
+<h1>AVISO DE ALUGUEL DE IMÓVEL</h1>
+
 @empy.replayDiversion("LIDIA2")
 <br class="page-break" />
 @empy.startDiversion("MOVETAKER")
 
-<h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
 <div class="notas">
     <p><strong>@mes_vcto</strong></p>
 </div>
@@ -377,13 +401,18 @@ Centro - Ibiúna - SP
 <p class="periodo">Período do Contrato de Locação: 10/10/2007 a 09/10/2008</p>
 
 @empy.stopDiverting()
+
+<h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
+
 @empy.replayDiversion("MOVETAKER")
 <hr />
+
+<h1>AVISO DE ALUGUEL DE IMÓVEL</h1>
+
 @empy.replayDiversion("MOVETAKER")
 <br class="page-break" />
 @empy.startDiversion("SERVIPRODI")
 
-<h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
 <div class="notas">
     <p><strong>@mes_vcto</strong></p>
 </div>
@@ -428,8 +457,14 @@ Centro - Ibiúna - SP
 <p class="periodo">Período do Contrato de Locação: 01/10/2007 a 31/09/2008</p>
               
 @empy.stopDiverting()
+
+<h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
+
 @empy.replayDiversion("SERVIPRODI")
 <hr />
+
+<h1>AVISO DE ALUGUEL DE IMÓVEL</h1>
+
 @empy.replayDiversion("SERVIPRODI")
 <br class="page-break" />
 </body>
