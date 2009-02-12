@@ -11,7 +11,7 @@
             font-size: 12pt;
             line-height: 2em;
             text-align: justify;
-            margin: 0 4cm 4cm 4cm;
+            margin: 0 2cm 2cm 2cm;
         }
         p {
             text-align: justify;
