@@ -24,7 +24,7 @@
         }
         table.detalhes {
             font-family: "Arial";
-            font-size: 10pt;
+            font-size: 9pt;
             margin-bottom: 0.5cm;
             float: right;
             text-align: right;
@@ -34,6 +34,10 @@
         }
         table.detalhes col.valor {
             width: 2cm;
+        }
+        td {
+            margin: 0;
+            padding: 0;
         }
         p {
             text-align: justify;
@@ -69,6 +73,7 @@
         }
         p.periodo {
             text-align: right;
+            font-size: 9pt;
         }
         br.page-break {
             page-break-after: always;
@@ -91,14 +96,15 @@
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
     <tr> <td> + Luz (0,00%)...R$ </td>                <td>   0,00 </td> </tr>
     <tr> <td> + Água (0,00%)...R$ </td>               <td>   0,00 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 485,00 </td> </tr>
+    <tr> <td> + Parcela @iptu - IPTU/2009...R$ </td>  <td>  17,32 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 502,32 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de ANDRADE ALVES PISOS LTDA. - ME, inscrita no C.N.P.J.
 sob o n.º 08.347.797/0001-00, estabelecida à Av. Ver. Benedito
-de Campos, n.° 156-A, Ibiúna, SP, a importância líquida de R$ 485,00
-(quatrocentos e oitenta e cinco reais) referente
+de Campos, n.° 156-A, Ibiúna, SP, a importância líquida de R$ 502,32
+(quinhentos e dois reais e trinta e dois centavos) referente
 ao aluguel mensal de um salão comercial no 1.º pavimento do imóvel no
 endereço acima, vencido em @vcto, cabendo 33,33% da referida
 importância líquida a cada locador.</p>
@@ -147,13 +153,14 @@ Centro - Ibiúna - SP
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
     <tr> <td> + Luz (10,00%)...R$ </td>               <td>  24,29 </td> </tr>
     <tr> <td> + Água (10,00%)...R$ </td>              <td>   4,72 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 179,01 </td> </tr>
+    <tr> <td> + Parcela @iptu - IPTU/2009...R$ </td>  <td>   7,52 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 186,53 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de ELIZEU MARCICANO, estabelecido à Av. Ver. Benedito de Campos,
-n.° 156, Ibiúna, SP, a importância líquida de R$ 179,01 (cento e setenta e
-nove reais e um centavo) referente ao aluguel mensal de uma sala n.º
+n.° 156, Ibiúna, SP, a importância líquida de R$ 186,53 (cento e oitenta
+e seis reais e cinqüenta e três centavos) referente ao aluguel mensal de uma sala n.º
 4 no 2.º pavimento do imóvel no endereço acima, vencido em @vcto,
 cabendo 33,33% da referida importância líquida a cada locador.</p>
 
@@ -201,14 +208,15 @@ Centro - Ibiúna - SP
     <tr> <td> - Desconto...R$ </td>                   <td>   160,63 </td> </tr>
     <tr> <td> + Luz (0,00%)...R$ </td>                <td>     0,00 </td> </tr>
     <tr> <td> + Água (0,00%)...R$ </td>               <td>     0,00 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 1.524,37 </td> </tr>
+    <tr> <td> + Parcela @iptu - IPTU/2009...R$ </td>  <td>    71,18 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 1.595,55 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de LDG BRASIL LTDA. - ME, inscrita no C.N.P.J. sob o n.°
 02.412.626/0001-30, estabelecida à Av. Ver. Benedito de Campos, n.° 156,
-Ibiúna, SP, a importância líquida de R$ 1.524,37 (um mil quinhentos e
-vinte e quatro reais e trinta e sete centavos), referente ao aluguel mensal das
+Ibiúna, SP, a importância líquida de R$ 1.595,55 (um mil quinhentos e noventa
+e cinco reais e cinqüenta e cinco centavos), referente ao aluguel mensal das
 salas n.ºs 1, 2, 4, 5, 6 e 7 no 3.º pavimento do imóvel no endereço acima,
 vencido em @vcto, cabendo 33,33% da referida importância líquida a cada
 locador.</p>
@@ -256,13 +264,14 @@ Centro - Ibiúna - SP <br />
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
     <tr> <td> + Luz (0,00%)...R$ </td>                <td>   0,00 </td> </tr>
     <tr> <td> + Água (0,00%)...R$ </td>               <td>   0,00 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 839,50 </td> </tr>
+    <tr> <td> + Parcela @iptu - IPTU/2009...R$ </td>  <td>  29,34 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 868,84 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de LÍDIA MEIRE BARRETO LOPES, inscrita no C.P.F. sob o n.º 025.891.964-74,
 estabelecida à Av. Ver. Benedito de Campos, n.° 156, Ibiúna, SP, a importância líquida de
-R$ 839,50 (oitocentos e trinta e nove reais e cinqüenta centavos) referente
+R$ 868,84 (oitocentos e oitenta e seis reais e oitenta e quatro centavos) referente
 ao aluguel mensal de um salão comercial no 1.º pavimento do imóvel no
 endereço acima, vencido em @lidia_vcto, cabendo 33,33% da referida
 importância líquida a cada locador.</p>
@@ -310,14 +319,15 @@ Centro - Ibiúna - SP
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
     <tr> <td> + Luz (0,00%)...R$ </td>                <td>   0,00 </td> </tr>
     <tr> <td> + Água (0,00%)...R$ </td>               <td>   0,00 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 451,50 </td> </tr>
+    <tr> <td> + Parcela @iptu - IPTU/2009...R$ </td>  <td>  28,25 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 479,75 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de LÍDIA MEIRE BARRETO LOPES, inscrita no C.P.F. sob o
 n.º 025.891.964-74, estabelecida à Av. Ver. Benedito de
-Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 451,50 (quatrocentos
-e cinqüenta e um reais e cinqüenta centavos) referente ao aluguel mensal
+Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 479,75 (quatrocentos
+e setenta e nove reais e setenta e cinco centavos) referente ao aluguel mensal
 de um salão comercial n.° 156-B no 1.º pavimento do imóvel no endereço
 acima, vencido em @vcto, cabendo 33,33% da referida importância
 líquida a cada locador.</p>
@@ -366,14 +376,15 @@ Centro - Ibiúna - SP
     <tr> <td> + Luz (0,00%)...R$ </td>                <td>   0,00 </td> </tr>
     <tr> <td> + Água (0,00%)...R$ </td>               <td>   0,00 </td> </tr>
     <tr> <td> + Condomínio...R$ </td>                 <td>  15,00 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 192,78 </td> </tr>
+    <tr> <td> + Parcela @iptu - IPTU/2009...R$ </td>  <td>   7,95 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 200,73 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de MOVETAKER COMUNICAÇÃO LTDA., inscrita no C.N.P.J. sob o n.°
 03.251.978/0001-14, estabelecida à Av. Ver. Benedito de Campos, n.° 156,
-Ibiúna, SP, a importância líquida de R$ 192,78 (cento e noventa e dois reais
-e setenta e oito centavos) referente ao aluguel mensal de uma sala n.º 3 no 3.º pavimento do
+Ibiúna, SP, a importância líquida de R$ 200,73 (duzentos reais e setenta e
+três centavos) referente ao aluguel mensal de uma sala n.º 3 no 3.º pavimento do
 imóvel no endereço acima, vencido em @vcto, cabendo 33,33% da referida
 importância líquida a cada locador.</p>
 
@@ -420,14 +431,15 @@ Centro - Ibiúna - SP
     <tr> <td> - Desconto...R$ </td>                   <td>  88,01 </td> </tr>
     <tr> <td> + Luz (40,00%)...R$ </td>               <td>  97,16 </td> </tr>
     <tr> <td> + Água (30,00%)...R$ </td>              <td>  14,15 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 756,72 </td> </tr>
+    <tr> <td> + Parcela @iptu - IPTU/2009...R$ </td>  <td>  29,87 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 786,59 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de SERVIPRODI - Serv. Proc. Dados Ibiúna Ltda. - ME, inscrita no
 C.N.P.J. sob o n.° 04.588.446/0001-30, estabelecido à Av. Ver. Benedito de
-Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 756,72
-(setecentos e cinqüenta e seis reais e setenta e dois centavos), referente ao
+Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 786,59
+(setecentos e oitenta e seis reais e cinqüenta e nove centavos), referente ao
 aluguel mensal de três salas, n.ºs 1, 2 e 3, no 2.º pavimento do imóvel no
 endereço acima, vencido em @vcto, cabendo 33,33% da referida
 importância líquida a cada locador.</p>
