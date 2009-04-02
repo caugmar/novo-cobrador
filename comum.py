@@ -10,9 +10,12 @@ from time import localtime, strftime
 from ConfigParser import SafeConfigParser
 from decimal import Decimal
 from sqlalchemy.ext.sqlsoup import SqlSoup
+import MySQLdb
 
 # Conecta ao banco de dados
 db = SqlSoup("mysql://caugm:caugm@localhost/cobranca")
+connection = MySQLdb.connect(db='cobranca',user='caugm',passwd='caugm')
+cursor = connection.cursor()
 
 # Carrega a configuração
 config = SafeConfigParser()
