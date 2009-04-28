@@ -1,4 +1,4 @@
-#!/usr/local/bin/python2.6
+#!../bin/python
 # -*- coding: latin-1 -*-
 
 from comum import *
