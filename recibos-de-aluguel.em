@@ -429,17 +429,17 @@ Centro - Ibiúna - SP
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 733,42 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>  88,01 </td> </tr>
-    <tr> <td> + Luz (40,00%)...R$ </td>               <td> 110,46 </td> </tr>
+    <tr> <td> + Luz (40,00%)...R$ </td>               <td> 131,17 </td> </tr>
     <tr> <td> + Água (30,00%)...R$ </td>              <td>  14,15 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2009...R$ </td>  <td>  29,87 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 799,89 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 820,60 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de SERVIPRODI - Serv. Proc. Dados Ibiúna Ltda. - ME, inscrita no
 C.N.P.J. sob o n.° 04.588.446/0001-30, estabelecido à Av. Ver. Benedito de
-Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 799,89
-(setecentos e noventa e nove reais e oitenta e nove centavos), referente ao
+Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 820,60
+(oitocentos e vinte reais e sessenta centavos), referente ao
 aluguel mensal de três salas, n.ºs 1, 2 e 3, no 2.º pavimento do imóvel no
 endereço acima, vencido em @vcto, cabendo 33,33% da referida
 importância líquida a cada locador.</p>
