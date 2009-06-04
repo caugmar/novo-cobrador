@@ -64,6 +64,8 @@ class Content:
 def atualizar_planilha(caminho, data, descricao, valor):
     tempdir = os.path.abspath("tempdir")
     caminho = os.path.abspath(caminho)
+    caminho = caminho.decode('latin-1').encode('utf-8')
+    print caminho
     os.system("rm -rf %s > /dev/null 2>&1" % tempdir)
     os.mkdir(tempdir)
     os.chdir(tempdir)

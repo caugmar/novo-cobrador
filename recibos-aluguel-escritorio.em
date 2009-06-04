@@ -99,8 +99,8 @@ Centro - Ibiúna - SP
 
 <p>Recebi de AGRO COMERCIAL TAKAFUJI LTDA, firma estabelecida à Avenida São
 Sebastião, n.º 651, Ibiúna, SP, CNPJ n.º 45.405.651/0001-08, a importância
-líquida de R$ 1.000,00 (um mil reais), referente ao aluguel mensal de um
-salão comercial no endereço acima, vencido em @vencimento.</p>
+líquida de R$ 1.400,00 (um mil e quatrocentos reais), referente ao aluguel
+mensal de um salão comercial no endereço acima, vencido em @vencimento.</p>
 
 <p>Para maior clareza, firmo o presente.</p>
 

@@ -151,16 +151,16 @@ Centro - Ibiúna - SP
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 150,00 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
-    <tr> <td> + Luz (10,00%)...R$ </td>               <td>  27,61 </td> </tr>
+    <tr> <td> + Luz (10,00%)...R$ </td>               <td>  30,75 </td> </tr>
     <tr> <td> + Água (10,00%)...R$ </td>              <td>   4,72 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2009...R$ </td>  <td>   7,52 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 189,85 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 192,99 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de ELIZEU MARCICANO, estabelecido à Av. Ver. Benedito de Campos,
-n.° 156, Ibiúna, SP, a importância líquida de R$ 189,85 (cento e oitenta
-e nove reais e oitenta e cinco centavos) referente ao aluguel mensal de uma sala n.º
+n.° 156, Ibiúna, SP, a importância líquida de R$ 192,99 (cento e noventa e dois
+reais e noventa e nove centavos) referente ao aluguel mensal de uma sala n.º
 4 no 2.º pavimento do imóvel no endereço acima, vencido em @vcto,
 cabendo 33,33% da referida importância líquida a cada locador.</p>
 
@@ -291,7 +291,7 @@ Avenida Vereador Benedito de Campos, 156 <br />
 Centro - Ibiúna - SP
 </div>
 
-<p class="periodo">Vencimento no 20.° dia do 3.º mês subseqüente - Período do Contrato de Locação: 01/04/2008 a 31/03/2009</p>
+<p class="periodo">Vencimento no 20.° dia do 3.º mês subseqüente - Período do Contrato de Locação: 01/04/2009 a 31/03/2010</p>
 
 @empy.stopDiverting()
 
@@ -403,7 +403,7 @@ Avenida Vereador Benedito de Campos, 156 <br />
 Centro - Ibiúna - SP
 </div>
 
-<p class="periodo">Período do Contrato de Locação: 10/10/2007 a 09/10/2008</p>
+<p class="periodo">Período do Contrato de Locação: 10/10/2008 a 09/10/2009</p>
 
 @empy.stopDiverting()
 
@@ -416,7 +416,7 @@ Centro - Ibiúna - SP
 
 @empy.replayDiversion("MOVETAKER")
 <br class="page-break" />
-@empy.startDiversion("SERVIPRODI")
+@empy.startDiversion("FISCONT")
 
 <div class="notas">
     <p><strong>@mes_vcto</strong></p>
@@ -428,18 +428,18 @@ Centro - Ibiúna - SP
         <col class="valor">
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 733,42 </td> </tr>
-    <tr> <td> - Desconto...R$ </td>                   <td>  88,01 </td> </tr>
-    <tr> <td> + Luz (40,00%)...R$ </td>               <td> 131,17 </td> </tr>
+    <tr> <td> - Desconto...R$ </td>                   <td>  79,42 </td> </tr>
+    <tr> <td> + Luz (40,00%)...R$ </td>               <td> 123,01 </td> </tr>
     <tr> <td> + Água (30,00%)...R$ </td>              <td>  14,15 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2009...R$ </td>  <td>  29,87 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 820,60 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 821,03 </td> </tr>
 </table>
 
 <p class="principal">
-Recebi de SERVIPRODI - Serv. Proc. Dados Ibiúna Ltda. - ME, inscrita no
-C.N.P.J. sob o n.° 04.588.446/0001-30, estabelecido à Av. Ver. Benedito de
-Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 820,60
-(oitocentos e vinte reais e sessenta centavos), referente ao
+Recebi de FISCONT - Ass. Cont. e Auditoria Ltda. - ME, inscrita no
+C.N.P.J. sob o n.° 10.666.623/0001-51, estabelecido à Av. Ver. Benedito de
+Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 821,03
+(oitocentos e vinte um reais e três centavos), referente ao
 aluguel mensal de três salas, n.ºs 1, 2 e 3, no 2.º pavimento do imóvel no
 endereço acima, vencido em @vcto, cabendo 33,33% da referida
 importância líquida a cada locador.</p>
@@ -459,18 +459,18 @@ Avenida Vereador Benedito de Campos, 156 <br />
 Centro - Ibiúna - SP
 </div>
 
-<p class="periodo">Período do Contrato de Locação: 01/10/2008 a 31/09/2009</p>
+<p class="periodo">Período do Contrato de Locação: 13/02/2009 a 12/02/2010</p>
 
 @empy.stopDiverting()
 
 <h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
 
-@empy.replayDiversion("SERVIPRODI")
+@empy.replayDiversion("FISCONT")
 <hr />
 
 <h1>AVISO DE ALUGUEL DE IMÓVEL</h1>
 
-@empy.replayDiversion("SERVIPRODI")
+@empy.replayDiversion("FISCONT")
 <br class="page-break" />
 </body>
 </html>
