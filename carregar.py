@@ -1,5 +1,5 @@
 #!/usr/bin/env python2.4
-# -*- coding: latin-1 -*-
+# -*- coding: utf-8 -*-
 
 from comum import *
 

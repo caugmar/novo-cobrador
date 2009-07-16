@@ -1,5 +1,5 @@
 #!../bin/python
-# -*- coding: latin-1 -*-
+# -*- coding: utf-8 -*-
 
 from comum import *
 from carregar import carregar
@@ -15,17 +15,17 @@ if __name__ == '__main__':
     parser.add_option("-c", "--carregar", action="store_true", dest="carregar",
                       help=u"carrega as planilhas no banco de dados")
     parser.add_option("-g", "--gerar", action="store_true", dest="gerar",
-                      help=u"gera os documentos de cobranÁa")
+                      help=u"gera os documentos de cobran√ßa")
     parser.add_option("-e", "--emitir", dest="emitir", metavar="EMISSAO",
-                      help=u"emite os documentos de cobranÁa referentes ‡ data de EMISSAO")
+                      help=u"emite os documentos de cobran√ßa referentes √† data de EMISSAO")
     parser.add_option("-d", "--cp-850", action="store_true", dest="cp850",
-                      help=u"codifica para impress„o em CP-850 (DOS)")
+                      help=u"codifica para impress√£o em CP-850 (DOS)")
     parser.add_option("-r", "--relatorios", dest="relatorios", metavar="EMISSAO",
-                      help=u"gera os relatÛrios de cobranÁa referentes ‡ data de EMISSAO")
+                      help=u"gera os relat√≥rios de cobran√ßa referentes √† data de EMISSAO")
     parser.add_option("-a", "--atualizar-planilhas", dest="atualizar", metavar="EMISSAO",
-                      help=u"atualiza as planilhas dos clientes com os documentos referentes ‡ data de EMISSAO")
+                      help=u"atualiza as planilhas dos clientes com os documentos referentes √† data de EMISSAO")
     parser.add_option("-x", "--eliminar", dest="eliminar", metavar="EMISSAO",
-                      help=u"remove do banco de dados os documentos referentes ‡ data de EMISSAO")
+                      help=u"remove do banco de dados os documentos referentes √† data de EMISSAO")
     (options, args) = parser.parse_args()
     if options.carregar: 
         carregar()

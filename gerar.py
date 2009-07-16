@@ -1,13 +1,13 @@
 #!/usr/bin/env python2.4
-# -*- coding: latin-1 -*-
+# -*- coding: utf-8 -*-
 
 from comum import *
 
 def gerar():
     tipos = sorted(list(set([i.tipo for i in db.lancamentos.all()])))
     for tipo in tipos:
-        numero = int(config.get(tipo, "número"))
-        emissao = config.get("COMUM", "emissão")
+        numero = int(config.get(tipo, "nÃºmero"))
+        emissao = config.get("COMUM", "emissÃ£o")
         vencimento = config.get("COMUM", "vencimento")
         #temp = db.join(db.lancamentos, db.empresas, db.lancamentos.c.empresa==db.empresas.c.mnemonico)
         temp = db.join(db.lancamentos, db.empresas).filter_by(tipo=tipo)

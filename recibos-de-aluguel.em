@@ -151,16 +151,16 @@ Centro - Ibiúna - SP
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 150,00 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
-    <tr> <td> + Luz (10,00%)...R$ </td>               <td>  30,75 </td> </tr>
+    <tr> <td> + Luz (10,00%)...R$ </td>               <td>  29,35 </td> </tr>
     <tr> <td> + Água (10,00%)...R$ </td>              <td>   4,72 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2009...R$ </td>  <td>   7,52 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 192,99 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 191,59 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de ELIZEU MARCICANO, estabelecido à Av. Ver. Benedito de Campos,
-n.° 156, Ibiúna, SP, a importância líquida de R$ 192,99 (cento e noventa e dois
-reais e noventa e nove centavos) referente ao aluguel mensal de uma sala n.º
+n.° 156, Ibiúna, SP, a importância líquida de R$ 191,59 (cento e noventa e um
+reais e cinqüenta e nove centavos) referente ao aluguel mensal de uma sala n.º
 4 no 2.º pavimento do imóvel no endereço acima, vencido em @vcto,
 cabendo 33,33% da referida importância líquida a cada locador.</p>
 
@@ -429,17 +429,17 @@ Centro - Ibiúna - SP
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 733,42 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>  79,42 </td> </tr>
-    <tr> <td> + Luz (40,00%)...R$ </td>               <td> 123,01 </td> </tr>
+    <tr> <td> + Luz (40,00%)...R$ </td>               <td> 117,39 </td> </tr>
     <tr> <td> + Água (30,00%)...R$ </td>              <td>  14,15 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2009...R$ </td>  <td>  29,87 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 821,03 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 815,41 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de FISCONT - Ass. Cont. e Auditoria Ltda. - ME, inscrita no
 C.N.P.J. sob o n.° 10.666.623/0001-51, estabelecido à Av. Ver. Benedito de
-Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 821,03
-(oitocentos e vinte um reais e três centavos), referente ao
+Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 815,41
+(oitocentos e quinze reais e quarenta e um centavos), referente ao
 aluguel mensal de três salas, n.ºs 1, 2 e 3, no 2.º pavimento do imóvel no
 endereço acima, vencido em @vcto, cabendo 33,33% da referida
 importância líquida a cada locador.</p>

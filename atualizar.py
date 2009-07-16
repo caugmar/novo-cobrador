@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- encoding: latin-1 -*-
+# -*- encoding: utf-8 -*-
 
 from xml.dom.minidom import parse, parseString
 import os, re, sys
@@ -49,7 +49,7 @@ class Content:
                  "valor": valor,
                  "valor-formatado": formatado,
                  "linha": linha}
-        xml = """<container xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0"><table:table-row table:style-name="ro2"><table:table-cell office:date-value="%(data-iso)s" office:value-type="date" table:style-name="ce2"><text:p>%(data)s</text:p></table:table-cell><table:table-cell office:value-type="string" table:style-name="ce7"><text:p>%(descricao)s</text:p></table:table-cell><table:table-cell office:value="%(valor)s" office:value-type="float" table:style-name="ce10"><text:p>%(valor-formatado)s</text:p></table:table-cell><table:table-cell table:style-name="ce13"/><table:table-cell office:value-type="string" table:style-name="ce15"><text:p>não</text:p></table:table-cell><table:table-cell office:value="0" office:value-type="float" table:style-name="ce10"><text:p>-</text:p></table:table-cell><table:table-cell table:style-name="ce2"/><table:table-cell office:value="%(valor)s" office:value-type="float" table:formula="oooc:=[.C%(linha)s]-[.F%(linha)s]" table:style-name="ce10"><text:p>%(valor-formatado)s</text:p></table:table-cell><table:table-cell office:value-type="string" table:style-name="ce15"><text:p></text:p></table:table-cell><table:table-cell table:number-columns-repeated="247"/></table:table-row></container>"""
+        xml = """<container xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0"><table:table-row table:style-name="ro2"><table:table-cell office:date-value="%(data-iso)s" office:value-type="date" table:style-name="ce2"><text:p>%(data)s</text:p></table:table-cell><table:table-cell office:value-type="string" table:style-name="ce7"><text:p>%(descricao)s</text:p></table:table-cell><table:table-cell office:value="%(valor)s" office:value-type="float" table:style-name="ce10"><text:p>%(valor-formatado)s</text:p></table:table-cell><table:table-cell table:style-name="ce13"/><table:table-cell office:value-type="string" table:style-name="ce15"><text:p>nÃ£o</text:p></table:table-cell><table:table-cell office:value="0" office:value-type="float" table:style-name="ce10"><text:p>-</text:p></table:table-cell><table:table-cell table:style-name="ce2"/><table:table-cell office:value="%(valor)s" office:value-type="float" table:formula="oooc:=[.C%(linha)s]-[.F%(linha)s]" table:style-name="ce10"><text:p>%(valor-formatado)s</text:p></table:table-cell><table:table-cell office:value-type="string" table:style-name="ce15"><text:p></text:p></table:table-cell><table:table-cell table:number-columns-repeated="247"/></table:table-row></container>"""
         xml = xml % dados
         newRow = parseString(xml.decode("latin-1").encode("utf-8")).firstChild.getElementsByTagName("table:table-row")[0]
         for cell, style in zip(newRow.childNodes, self.getStyles()):
@@ -85,12 +85,12 @@ def atualizar(emissao):
             continue
         diretorio = config.get("COMUM", "planilhas")
         caminho = os.path.join(diretorio, planilha[0].lower(), planilha)
-        dados = {"número": doc.numero_da_nota, "mês": config.get("COMUM", "mês")}
-        descricao = config.get(doc.modelo, "descrição", True) % dados
+        dados = {"nÃºmero": doc.numero_da_nota, "mÃªs": config.get("COMUM", "mÃªs")}
+        descricao = config.get(doc.modelo, "descriÃ§Ã£o", True) % dados
         valores = [i.valor for i in db.itens_de_cobranca.filter_by(documento=doc.id).select()]
         valor = float(reduce(lambda a, b: a+b, valores))
         atualizar_planilha(caminho, emissao, descricao, valor)
 
 if __name__ == "__main__":
-    atualizar_planilha(sys.argv[1], data="12/01/2008", descricao="Cobrança 01/2008", valor=4.32)
+    atualizar_planilha(sys.argv[1], data="12/01/2008", descricao="CobranÃ§a 01/2008", valor=4.32)
 

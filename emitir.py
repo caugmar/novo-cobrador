@@ -1,11 +1,11 @@
 #!/usr/bin/env python2.4
-# -*- coding: latin-1 -*-
+# -*- coding: utf-8 -*-
 
 from comum import *
 from extensos import extenso
 
 
-### FunÁıes utilit·rias
+### Fun√ß√µes utilit√°rias
 
 def procusto(lista_de_itens):
     lista =  [[i.quantidade, i.descricao, i.valor] for i in lista_de_itens]
@@ -40,7 +40,7 @@ def desde(texto, indice):
             return texto[i+1:]
 
 
-### Classe que representa um modelo para impress„o
+### Classe que representa um modelo para impress√£o
 
 class Modelo:
     def __init__(self, texto):
@@ -62,7 +62,7 @@ class Modelo:
         self.texto = self.texto.decode("latin-1").encode("cp850")
 
 
-### FunÁ„o para emiss„o dos documentos de cobranÁa
+### Fun√ß√£o para emiss√£o dos documentos de cobran√ßa
 
 def emitir(emissao, cp850=False):
     tipos = sorted(list(set([i.tipo for i in db.lancamentos.all()])))
@@ -75,7 +75,7 @@ def emitir(emissao, cp850=False):
             modelo.subst("nome", registro.nome[:52], 52)
             modelo.subst("nffs", "%06d" % registro.numero_da_nota, 6)
 
-            # EndereÁo para avisos de cobranÁa
+            # Endere√ßo para avisos de cobran√ßa
             endereco = "%s, %s" % (registro.logradouro, registro.numero)
             if registro.complemento.strip() != "-":
                 endereco += " - %s" % registro.complemento
@@ -86,7 +86,7 @@ def emitir(emissao, cp850=False):
             modelo.subst("u", registro.estado, 3)
             modelo.subst("cep", registro.cep, 9)
 
-            # EndereÁo para outras notas
+            # Endere√ßo para outras notas
             endereco = "%s, %s" % (registro.logradouro, registro.numero)
             if registro.complemento.strip() != "-":
                 endereco += " - %s" % registro.complemento

@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- encoding: latin-1 -*-
+# -*- encoding: utf-8 -*-
 
 from comum import *
 from reportlab.lib import colors
@@ -15,7 +15,7 @@ class Relatorio:
         self.estilos = getSampleStyleSheet().byName
         self.tipo = tipo
         self.arquivo = "relatorio-%s.pdf" % self.tipo.lower()
-        self.titulo = titulo.decode('latin-1')
+        self.titulo = titulo.decode('utf-8')
         self.autor = 'cobrador'
         self.pagina = (pagesizes.A4[1], pagesizes.A4[0])
         self.margens = (1*cm, 1*cm, 2*cm, 1.5*cm)
@@ -36,8 +36,8 @@ class Relatorio:
         else:
             lst.append(tabela)
         lst.append(Spacer(0, 0.5*cm))
-        fim = strftime('Emitido em %d/%m/%Y, às %H:%Mh.', localtime())
-        lst.append(Paragraph(fim.decode('latin-1'), estilo_comentario))
+        fim = strftime('Emitido em %d/%m/%Y, Ã s %H:%Mh.', localtime())
+        lst.append(Paragraph(fim.decode('utf-8'), estilo_comentario))
         self.reiniciar_contagem()
         doc = SimpleDocTemplate(self.arquivo, pagesize=self.pagina,
                                 title=self.titulo, author=self.autor,
@@ -64,14 +64,14 @@ class Relatorio:
         canvas.setFont('Helvetica-Bold', 16)
         canvas.drawCentredString(pagesizes.A4[1]/2.0, 19.5*cm, self.titulo)
         canvas.setFont('Helvetica', 10)
-        canvas.drawCentredString(pagesizes.A4[1]/2.0, 1.0*cm, u"Página %d de %d" % (doc.page, self.paginas))
+        canvas.drawCentredString(pagesizes.A4[1]/2.0, 1.0*cm, u"PÃ¡gina %d de %d" % (doc.page, self.paginas))
         canvas.restoreState()
     
     def reiniciar_contagem(self):
         self.paginas = 0
     
     def gerar(self):
-        dados = [(u'N.º', u'NOME', u'MENS.', u'QT.', u'FISCAIS', u'QT.', u'TRAB.',
+        dados = [(u'N.Âº', u'NOME', u'MENS.', u'QT.', u'FISCAIS', u'QT.', u'TRAB.',
                   u'QT.', u'XEROX', u'QT.', u'OUTROS', u'TOTAL')]
         t_mensalidade = Decimal('0.0')
         t_qt_fiscais = 0
@@ -139,8 +139,8 @@ def relatorios(emissao, cp850=False):
     tipos = sorted(list(set([i.tipo for i in db.lancamentos.all()])))
     for tipo in tipos:
         dados = []
-        dados_mes = {"mês-extenso": config.get("COMUM", "mês-extenso")}
-        titulo = config.get(tipo, "título", True) % dados_mes
+        dados_mes = {"mÃªs-extenso": config.get("COMUM", "mÃªs-extenso")}
+        titulo = config.get(tipo, "tÃ­tulo", True) % dados_mes
         documentos = db.documentos_de_cobranca
         documentos = documentos.filter_by(modelo=tipo, data_de_emissao=emissao)
         # documentos = documentos.order_by('numero_da_nota').all()

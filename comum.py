@@ -1,8 +1,8 @@
 #!/usr/bin/env python2.4
-# -*- coding: latin-1 -*-
+# -*- coding: utf-8 -*-
 
-# Este módulo cuida das importações e funções
-# usadas pelos outros módulos.
+# Este mÃ³dulo cuida das importaÃ§Ãµes e funÃ§Ãµes
+# usadas pelos outros mÃ³dulos.
 
 import csv, os, re, types
 from optparse import OptionParser
@@ -17,7 +17,7 @@ db = SqlSoup("mysql://caugm:caugm@localhost/cobranca")
 connection = MySQLdb.connect(db='cobranca',user='caugm',passwd='caugm')
 cursor = connection.cursor()
 
-# Carrega a configuração
+# Carrega a configuraÃ§Ã£o
 config = SafeConfigParser()
 config.read("cobrador.ini")
 
