@@ -51,7 +51,8 @@ class Content:
                  "linha": linha}
         xml = """<container xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0"><table:table-row table:style-name="ro2"><table:table-cell office:date-value="%(data-iso)s" office:value-type="date" table:style-name="ce2"><text:p>%(data)s</text:p></table:table-cell><table:table-cell office:value-type="string" table:style-name="ce7"><text:p>%(descricao)s</text:p></table:table-cell><table:table-cell office:value="%(valor)s" office:value-type="float" table:style-name="ce10"><text:p>%(valor-formatado)s</text:p></table:table-cell><table:table-cell table:style-name="ce13"/><table:table-cell office:value-type="string" table:style-name="ce15"><text:p>não</text:p></table:table-cell><table:table-cell office:value="0" office:value-type="float" table:style-name="ce10"><text:p>-</text:p></table:table-cell><table:table-cell table:style-name="ce2"/><table:table-cell office:value="%(valor)s" office:value-type="float" table:formula="oooc:=[.C%(linha)s]-[.F%(linha)s]" table:style-name="ce10"><text:p>%(valor-formatado)s</text:p></table:table-cell><table:table-cell office:value-type="string" table:style-name="ce15"><text:p></text:p></table:table-cell><table:table-cell table:number-columns-repeated="247"/></table:table-row></container>"""
         xml = xml % dados
-        newRow = parseString(xml.decode("latin-1").encode("utf-8")).firstChild.getElementsByTagName("table:table-row")[0]
+        #newRow = parseString(xml.decode("latin-1").encode("utf-8")).firstChild.getElementsByTagName("table:table-row")[0]
+        newRow = parseString(xml).firstChild.getElementsByTagName("table:table-row")[0]
         for cell, style in zip(newRow.childNodes, self.getStyles()):
             cell.setAttribute("table:style-name", style)
         self.rows[self.index:self.index] = [newRow]

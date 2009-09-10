@@ -1,4 +1,4 @@
-#!../bin/python
+#!../bin/python -Wignore
 # -*- coding: utf-8 -*-
 
 from comum import *
@@ -11,6 +11,7 @@ from eliminar import eliminar
 
 if __name__ == '__main__':
     global cp850
+    # print "Você se lembrou de ativar (source ../bin/activate)?"
     parser = OptionParser("%prog [-c] [-g] [-e] [-d] [-r]")
     parser.add_option("-c", "--carregar", action="store_true", dest="carregar",
                       help=u"carrega as planilhas no banco de dados")
@@ -27,6 +28,7 @@ if __name__ == '__main__':
     parser.add_option("-x", "--eliminar", dest="eliminar", metavar="EMISSAO",
                       help=u"remove do banco de dados os documentos referentes à data de EMISSAO")
     (options, args) = parser.parse_args()
+
     if options.carregar: 
         carregar()
     if options.gerar: 
