@@ -115,7 +115,6 @@ def extenso(valor):
 	if saida!='' and cents!='': # Se a saída (da parte inteira) não for nula e houverem centavos
 		saida += ' e ' # Coloca o "e"
 	saida += cents # Concatena os centavos à saída
-		
 	saida = saida[0].swapcase() + saida[1:len(saida)] # Torna maiúsculo o primeiro caractere da saída
 	
 	return saida

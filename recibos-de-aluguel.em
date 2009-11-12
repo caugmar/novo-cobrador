@@ -92,19 +92,19 @@
         <col class="desc">
         <col class="valor">
     </colgroup>
-    <tr> <td> Valor...R$ </td>                        <td> 485,00 </td> </tr>
+    <tr> <td> Valor...R$ </td>                        <td> 533,50 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
     <tr> <td> + Luz (0,00%)...R$ </td>                <td>   0,00 </td> </tr>
     <tr> <td> + Água (0,00%)...R$ </td>               <td>   0,00 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2009...R$ </td>  <td>  17,32 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 502,32 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 550,82 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de ANDRADE ALVES PISOS LTDA. - ME, inscrita no C.N.P.J.
 sob o n.º 08.347.797/0001-00, estabelecida à Av. Ver. Benedito
-de Campos, n.° 156-A, Ibiúna, SP, a importância líquida de R$ 502,32
-(quinhentos e dois reais e trinta e dois centavos) referente
+de Campos, n.° 156-A, Ibiúna, SP, a importância líquida de R$ 550,82
+(quinhentos e cinqüenta reais e oitenta e dois centavos) referente
 ao aluguel mensal de um salão comercial no 1.º pavimento do imóvel no
 endereço acima, vencido em @vcto, cabendo 33,33% da referida
 importância líquida a cada locador.</p>
@@ -151,16 +151,16 @@ Centro - Ibiúna - SP
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 150,00 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
-    <tr> <td> + Luz (10,00%)...R$ </td>               <td>  30,72 </td> </tr>
-    <tr> <td> + Água (10,00%)...R$ </td>              <td>   4,72 </td> </tr>
+    <tr> <td> + Luz (10,00%)...R$ </td>               <td>  30,64 </td> </tr>
+    <tr> <td> + Água (10,00%)...R$ </td>              <td>   5,27 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2009...R$ </td>  <td>   7,52 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 192,96 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 193,43 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de ELIZEU MARCICANO, estabelecido à Av. Ver. Benedito de Campos, n.°
-156, Ibiúna, SP, a importância líquida de R$ 192,96 (cento e noventa e dois
-reais e noventa e seis centavos) referente ao aluguel mensal de uma sala n.º 4
+156, Ibiúna, SP, a importância líquida de R$ 193,43 (cento e noventa e três
+reais e quarenta e três centavos) referente ao aluguel mensal de uma sala n.º 4
 no 2.º pavimento do imóvel no endereço acima, vencido em @vcto, cabendo 33,33%
 da referida importância líquida a cada locador.</p>
 
@@ -371,17 +371,17 @@ Centro - Ibiúna - SP
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 733,42 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>  79,42 </td> </tr>
-    <tr> <td> + Luz (40,00%)...R$ </td>               <td> 122,89 </td> </tr>
-    <tr> <td> + Água (30,00%)...R$ </td>              <td>  14,15 </td> </tr>
+    <tr> <td> + Luz (40,00%)...R$ </td>               <td> 122,54 </td> </tr>
+    <tr> <td> + Água (30,00%)...R$ </td>              <td>  15,82 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2009...R$ </td>  <td>  29,87 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 820,91 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 822,23 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de FISCONT - Ass. Cont. e Auditoria Ltda. - ME, inscrita no C.N.P.J. sob
 o n.° 10.666.623/0001-51, estabelecido à Av. Ver. Benedito de Campos, n.° 156,
-Ibiúna, SP, a importância líquida de R$ 820,91 (oitocentos e vinte reais e
-noventa e um centavos), referente ao aluguel mensal de três salas, n.ºs 1, 2 e
+Ibiúna, SP, a importância líquida de R$ 822,23 (oitocentos e vinte dois reais e 
+vinte e três centavos), referente ao aluguel mensal de três salas, n.ºs 1, 2 e
 3, no 2.º pavimento do imóvel no endereço acima, vencido em @vcto, cabendo
 33,33% da referida importância líquida a cada locador.</p>
 
