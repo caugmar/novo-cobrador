@@ -124,7 +124,7 @@ Avenida Vereador Benedito de Campos, 156 <br />
 Centro - Ibiúna - SP
 </div>
 
-<p class="periodo">Período do Contrato de Locação: 25/09/2008 a 24/09/2009</p>
+<p class="periodo">Período do Contrato de Locação: 25/09/2009 a 24/09/2010</p>
 
 
 @empy.stopDiverting()
@@ -151,16 +151,16 @@ Centro - Ibiúna - SP
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 150,00 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
-    <tr> <td> + Luz (10,00%)...R$ </td>               <td>  35,72 </td> </tr>
-    <tr> <td> + Água (10,00%)...R$ </td>              <td>   4,89 </td> </tr>
+    <tr> <td> + Luz (10,00%)...R$ </td>               <td>  25,44 </td> </tr>
+    <tr> <td> + Água (10,00%)...R$ </td>              <td>   5,51 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2009...R$ </td>  <td>   7,52 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 198,13 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 188,47 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de ELIZEU MARCICANO, estabelecido à Av. Ver. Benedito de Campos, n.°
-156, Ibiúna, SP, a importância líquida de R$ 198,13 (cento e noventa e oito
-reais e treze centavos) referente ao aluguel mensal de uma sala n.º 4
+156, Ibiúna, SP, a importância líquida de R$ 188,47 (cento e oitenta e oito
+reais e quarenta e sete centavos) referente ao aluguel mensal de uma sala n.º 4
 no 2.º pavimento do imóvel no endereço acima, vencido em @vcto, cabendo 33,33%
 da referida importância líquida a cada locador.</p>
 
@@ -179,7 +179,7 @@ Avenida Vereador Benedito de Campos, 156 <br />
 Centro - Ibiúna - SP
 </div>
 
-<p class="periodo">Período do Contrato de Locação: 01/10/2008 a 30/09/2009</p>
+<p class="periodo">Período do Contrato de Locação: 01/10/2009 a 30/09/2010</p>
 
 @empy.stopDiverting()
 
@@ -313,19 +313,19 @@ Centro - Ibiúna - SP
         <col class="desc">
         <col class="valor">
     </colgroup>
-    <tr> <td> Valor...R$ </td>                        <td> 177,78 </td> </tr>
+    <tr> <td> Valor...R$ </td>                        <td> 193,78 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
     <tr> <td> + Luz (0,00%)...R$ </td>                <td>   0,00 </td> </tr>
     <tr> <td> + Água (0,00%)...R$ </td>               <td>   0,00 </td> </tr>
     <tr> <td> + Condomínio...R$ </td>                 <td>  15,00 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2009...R$ </td>  <td>   7,95 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 200,73 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 216,73 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de MOVETAKER COMUNICAÇÃO LTDA., inscrita no C.N.P.J. sob o n.°
 03.251.978/0001-14, estabelecida à Av. Ver. Benedito de Campos, n.° 156,
-Ibiúna, SP, a importância líquida de R$ 200,73 (duzentos reais e setenta e
+Ibiúna, SP, a importância líquida de R$ 216,73 (duzentos e dezesseis reais e setenta e
 três centavos) referente ao aluguel mensal de uma sala n.º 3 no 3.º pavimento do
 imóvel no endereço acima, vencido em @vcto, cabendo 33,33% da referida
 importância líquida a cada locador.</p>
@@ -345,7 +345,7 @@ Avenida Vereador Benedito de Campos, 156 <br />
 Centro - Ibiúna - SP
 </div>
 
-<p class="periodo">Período do Contrato de Locação: 10/10/2008 a 09/10/2009</p>
+<p class="periodo">Período do Contrato de Locação: 10/10/2009 a 09/10/2010</p>
 
 @empy.stopDiverting()
 
@@ -371,17 +371,17 @@ Centro - Ibiúna - SP
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 733,42 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>  79,42 </td> </tr>
-    <tr> <td> + Luz (40,00%)...R$ </td>               <td> 142,88 </td> </tr>
-    <tr> <td> + Água (30,00%)...R$ </td>              <td>  14,66 </td> </tr>
+    <tr> <td> + Luz (40,00%)...R$ </td>               <td>  76,32 </td> </tr>
+    <tr> <td> + Água (30,00%)...R$ </td>              <td>  16,52 </td> </tr>
     <tr> <td> + Parcela @iptu - IPTU/2009...R$ </td>  <td>  29,87 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 841,41 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 776,71 </td> </tr>
 </table>
 
 <p class="principal">
 Recebi de FISCONT - Ass. Cont. e Auditoria Ltda. - ME, inscrita no C.N.P.J. sob
 o n.° 10.666.623/0001-51, estabelecido à Av. Ver. Benedito de Campos, n.° 156,
-Ibiúna, SP, a importância líquida de R$ 841,41 (oitocentos e quarenta e um reais e
-quarenta e um centavos), referente ao aluguel mensal de três salas, n.ºs 1, 2 e
+Ibiúna, SP, a importância líquida de R$ 776,71 (setecentos e setenta e seis reais e
+setenta e um centavos), referente ao aluguel mensal de três salas, n.ºs 1, 2 e
 3, no 2.º pavimento do imóvel no endereço acima, vencido em @vcto, cabendo
 33,33% da referida importância líquida a cada locador.</p>
 
