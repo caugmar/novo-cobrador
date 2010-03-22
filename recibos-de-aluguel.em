@@ -96,7 +96,7 @@
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
     <tr> <td> + Luz (0,00%)...R$ </td>                <td>   0,00 </td> </tr>
     <tr> <td> + Água (0,00%)...R$ </td>               <td>   0,00 </td> </tr>
-    <tr> <td> + IPTU/2010 01/11 </td>                 <td>  24,88 </td> </tr>
+    <tr> <td> + IPTU 2010 @iptu </td>                 <td>  24,88 </td> </tr>
     <tr> <td> Líquido...R$ </td>                      <td> 558,38 </td> </tr>
 </table>
 
@@ -151,7 +151,7 @@ Centro - Ibiúna - SP
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
     <tr> <td> + Luz (10,00%)...R$ </td>               <td>   0,00 </td> </tr>
     <tr> <td> + Água (10,00%)...R$ </td>              <td>   0,00 </td> </tr>
-    <tr> <td> + IPTU/2010 01/11 </td>                 <td>   8,09 </td> </tr>
+    <tr> <td> + IPTU 2010 @iptu </td>                 <td>   8,09 </td> </tr>
     <tr> <td> Líquido...R$ </td>                      <td> 188,09 </td> </tr>
 </table>
 
@@ -204,7 +204,7 @@ Centro - Ibiúna - SP
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
     <tr> <td> + Luz (10,00%)...R$ </td>               <td>  28,64 </td> </tr>
     <tr> <td> + Água (10,00%)...R$ </td>              <td>   4,72 </td> </tr>
-    <tr> <td> + IPTU/2010 01/11 </td>                 <td>   8,46 </td> </tr>
+    <tr> <td> + IPTU 2010 @iptu </td>                 <td>   8,46 </td> </tr>
     <tr> <td> Líquido...R$ </td>                      <td> 191,82 </td> </tr>
 </table>
 
@@ -257,7 +257,7 @@ Centro - Ibiúna - SP
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
     <tr> <td> + Luz (0,00%)...R$ </td>                <td>   0,00 </td> </tr>
     <tr> <td> + Água (0,00%)...R$ </td>               <td>   0,00 </td> </tr>
-    <tr> <td> + IPTU/2010 01/11 </td>                 <td>  30,60 </td> </tr>
+    <tr> <td> + IPTU 2010 @iptu </td>                 <td>  30,60 </td> </tr>
     <tr> <td> Líquido...R$ </td>                      <td> 870,10 </td> </tr>
 </table>
 
@@ -311,7 +311,7 @@ Centro - Ibiúna - SP
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
     <tr> <td> + Luz (0,00%)...R$ </td>                <td>   0,00 </td> </tr>
     <tr> <td> + Água (0,00%)...R$ </td>               <td>   0,00 </td> </tr>
-    <tr> <td> + IPTU/2010 01/11 </td>                 <td>  30,10 </td> </tr>
+    <tr> <td> + IPTU 2010 @iptu </td>                 <td>  30,10 </td> </tr>
     <tr> <td> Líquido...R$ </td>                      <td> 481,60 </td> </tr>
 </table>
 
@@ -367,7 +367,7 @@ Centro - Ibiúna - SP
     <tr> <td> + Luz (0,00%)...R$ </td>                <td>   0,00 </td> </tr>
     <tr> <td> + Água (0,00%)...R$ </td>               <td>   0,00 </td> </tr>
     <tr> <td> + Condomínio...R$ </td>                 <td>  15,00 </td> </tr>
-    <tr> <td> + IPTU/2010 01/11 </td>                 <td>   7,95 </td> </tr>
+    <tr> <td> + IPTU 2010 @iptu </td>                 <td>   7,95 </td> </tr>
     <tr> <td> Líquido...R$ </td>                      <td> 200,73 </td> </tr>
 </table>
 
@@ -421,7 +421,7 @@ Centro - Ibiúna - SP
     <tr> <td> - Desconto...R$ </td>                   <td>  79,42 </td> </tr>
     <tr> <td> + Luz (40,00%)...R$ </td>               <td> 114,54 </td> </tr>
     <tr> <td> + Água (30,00%)...R$ </td>              <td>  14,15 </td> </tr>
-    <tr> <td> + IPTU/2010 01/11 </td>                 <td>  38,97 </td> </tr>
+    <tr> <td> + IPTU 2010 @iptu </td>                 <td>  38,97 </td> </tr>
     <tr> <td> Líquido...R$ </td>                      <td> 821,66 </td> </tr>
 </table>
 
