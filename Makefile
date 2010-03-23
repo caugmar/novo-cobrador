@@ -3,7 +3,9 @@ all: recibos
 recibos:
 	empy --execute-file=configuracoes.py recibos-aluguel-escritorio.em > recibos-aluguel-escritorio.html
 	empy --execute-file=configuracoes.py recibos-de-aluguel.em > recibos-de-aluguel.html
-	firefox -P printing *.html 
+	wkhtmltopdf recibos-aluguel-escritorio.html recibos-aluguel-escritorio.pdf
+	wkhtmltopdf recibos-de-aluguel.html recibos-de-aluguel.pdf
+	evince *.pdf
 
 clean:
 	rm -rf *.pyc *~ *.sql *.autosave *.csv *.txt *.pdf *.html

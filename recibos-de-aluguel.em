@@ -10,8 +10,8 @@
             font-family: "Arial";
             font-size: 10pt;
             text-align: justify;
-            line-height: 1em;
-            margin: 0;
+            line-height: 1.25em;
+            margin: 0 2cm;
         }
         div.notas {
             float: left;
@@ -75,7 +75,7 @@
             text-align: right;
             font-size: 9pt;
         }
-        br.page-break {
+        br.pbreak {
             page-break-after: always;
         }
     </style>
@@ -135,7 +135,7 @@ Centro - Ibiúna - SP
 <h1>AVISO DE ALUGUEL DE IMÓVEL</h1>
 
 @empy.replayDiversion("ANDRADE")
-<br class="page-break" />
+<br class="pbreak" />
 @empy.startDiversion("EDINEIA")
 
 <div class="notas">
@@ -188,7 +188,7 @@ Centro - Ibiúna - SP
 <h1>AVISO DE ALUGUEL DE IMÓVEL</h1>
 
 @empy.replayDiversion("EDINEIA")
-<br class="page-break" />
+<br class="pbreak" />
 @empy.startDiversion("ELIZEU")
 
 <div class="notas">
@@ -202,17 +202,18 @@ Centro - Ibiúna - SP
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 150,00 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
-    <tr> <td> + Luz (10,00%)...R$ </td>               <td>  28,64 </td> </tr>
-    <tr> <td> + Água (10,00%)...R$ </td>              <td>   4,72 </td> </tr>
+    <tr> <td> + Luz (10,00%)...R$ </td>               <td>  31,23 </td> </tr>
+    <tr> <td> + Água (10,00%)...R$ </td>              <td>   4,93 </td> </tr>
     <tr> <td> + IPTU 2010 @iptu </td>                 <td>   8,46 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 191,82 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 194,62 </td> </tr>
 </table>
 
 <p class="principal"> Recebi de ELIZEU MARCICANO, estabelecido à Av. Ver.
-Benedito de Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 191,82
-(cento e noventa e um reais e oitenta e dois centavos) referente ao aluguel
-mensal de uma sala n.º 4 no 2.º pavimento do imóvel no endereço acima, vencido
-em @vcto, cabendo 33,33% da referida importância líquida a cada locador.</p>
+Benedito de Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 194,62
+(cento e noventa e quatro reais e sessenta e dois centavos) referente ao
+aluguel mensal de uma sala n.º 4 no 2.º pavimento do imóvel no endereço acima,
+vencido em @vcto, cabendo 33,33% da referida importância líquida a cada
+locador.</p>
 
 <p>Para maior clareza, firmo o presente.</p>
 
@@ -241,7 +242,7 @@ Centro - Ibiúna - SP
 <h1>AVISO DE ALUGUEL DE IMÓVEL</h1>
 
 @empy.replayDiversion("ELIZEU")
-<br class="page-break" />
+<br class="pbreak" />
 @empy.startDiversion("LIDIA1")
 
 <div class="notas">
@@ -283,7 +284,7 @@ Avenida Vereador Benedito de Campos, 156 <br />
 Centro - Ibiúna - SP
 </div>
 
-<p class="periodo">Vencimento no 20.° dia do 3.º mês subseqüente - Período do Contrato de Locação: 01/04/2009 a 31/03/2010</p>
+<p class="periodo">Vcto no 20.° dia do 3.º mês subseqüente - Período da Locação: 01/04/2009 a 31/03/2010</p>
 
 @empy.stopDiverting()
 
@@ -295,7 +296,7 @@ Centro - Ibiúna - SP
 <h1>AVISO DE ALUGUEL DE IMÓVEL</h1>
 
 @empy.replayDiversion("LIDIA1")
-<br class="page-break" />
+<br class="pbreak" />
 @empy.startDiversion("LIDIA2")
 
 <div class="notas">
@@ -350,7 +351,7 @@ Centro - Ibiúna - SP
 <h1>AVISO DE ALUGUEL DE IMÓVEL</h1>
 
 @empy.replayDiversion("LIDIA2")
-<br class="page-break" />
+<br class="pbreak" />
 @empy.startDiversion("MOVETAKER")
 
 <div class="notas">
@@ -405,7 +406,7 @@ Centro - Ibiúna - SP
 <h1>AVISO DE ALUGUEL DE IMÓVEL</h1>
 
 @empy.replayDiversion("MOVETAKER")
-<br class="page-break" />
+<br class="pbreak" />
 @empy.startDiversion("FISCONT")
 
 <div class="notas">
@@ -419,19 +420,19 @@ Centro - Ibiúna - SP
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 733,42 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>  79,42 </td> </tr>
-    <tr> <td> + Luz (40,00%)...R$ </td>               <td> 114,54 </td> </tr>
-    <tr> <td> + Água (30,00%)...R$ </td>              <td>  14,15 </td> </tr>
+    <tr> <td> + Luz (40,00%)...R$ </td>               <td> 124,93 </td> </tr>
+    <tr> <td> + Água (30,00%)...R$ </td>              <td>  14,78 </td> </tr>
     <tr> <td> + IPTU 2010 @iptu </td>                 <td>  38,97 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 821,66 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 862,68 </td> </tr>
 </table>
 
-<p class="principal"> Recebi de FISCONT - Ass. Cont. e Auditoria Ltda. - ME,
-inscrita no C.N.P.J. sob o n.° 10.666.623/0001-51, estabelecido à Av. Ver.
-Benedito de Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 821,66
-(oitocentos e vinte um reais e sessenta e seis centavos), referente ao aluguel
-mensal de três salas, n.ºs 1, 2 e 3, no 2.º pavimento do imóvel no endereço
-acima, vencido em @vcto, cabendo 33,33% da referida importância líquida a cada
-locador.</p>
+<p class="principal" style="line-height: 1em"> Recebi de FISCONT - Ass. Cont. e
+Auditoria Ltda. - ME, inscrita no C.N.P.J. sob o n.° 10.666.623/0001-51,
+estabelecido à Av. Ver.  Benedito de Campos, n.° 156, Ibiúna, SP, a importância
+líquida de R$ 862,68 (oitocentos e sessenta e dois reais e sessenta e oito
+centavos), referente ao aluguel mensal de três salas, n.ºs 1, 2 e 3, no 2.º
+pavimento do imóvel no endereço acima, vencido em @vcto, cabendo 33,33% da
+referida importância líquida a cada locador.</p>
 
 <p>Para maior clareza, firmo o presente.</p>
 
@@ -460,6 +461,6 @@ Centro - Ibiúna - SP
 <h1>AVISO DE ALUGUEL DE IMÓVEL</h1>
 
 @empy.replayDiversion("FISCONT")
-<br class="page-break" />
+<br class="pbreak" />
 </body>
 </html>
