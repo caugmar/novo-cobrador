@@ -202,18 +202,18 @@ Centro - Ibiúna - SP
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 150,00 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
-    <tr> <td> + Luz (10,00%)...R$ </td>               <td>  31,49 </td> </tr>
-    <tr> <td> + Água (10,00%)...R$ </td>              <td>   4,93 </td> </tr>
+    <tr> <td> + Luz (10,00%)...R$ </td>               <td>  29,40 </td> </tr>
+    <tr> <td> + Água (10,00%)...R$ </td>              <td>   5,51 </td> </tr>
     <tr> <td> + IPTU 2010 @iptu </td>                 <td>   8,46 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 194,88 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 193,37 </td> </tr>
 </table>
 
 <p class="principal"> Recebi de ELIZEU MARCICANO, estabelecido à Av. Ver.
-Benedito de Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 194,88
-(cento e noventa e quatro reais e oitenta e oito centavos) referente ao
-aluguel mensal de uma sala n.º 4 no 2.º pavimento do imóvel no endereço acima,
-vencido em @vcto, cabendo 33,33% da referida importância líquida a cada
-locador.</p>
+    Benedito de Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 193,37
+    (cento e noventa e três reais e trinta e sete centavos) referente ao
+    aluguel mensal de uma sala n.º 4 no 2.º pavimento do imóvel no endereço
+    acima, vencido em @vcto, cabendo 33,33% da referida importância líquida a
+    cada locador.</p>
 
 <p>Para maior clareza, firmo o presente.</p>
 
@@ -254,20 +254,21 @@ Centro - Ibiúna - SP
         <col class="desc">
         <col class="valor">
     </colgroup>
-    <tr> <td> Valor...R$ </td>                        <td> 839,50 </td> </tr>
+    <tr> <td> Valor...R$ </td>                        <td> 915,06 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
     <tr> <td> + Luz (0,00%)...R$ </td>                <td>   0,00 </td> </tr>
     <tr> <td> + Água (0,00%)...R$ </td>               <td>   0,00 </td> </tr>
     <tr> <td> + IPTU 2010 @iptu </td>                 <td>  30,60 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 870,10 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 945,66 </td> </tr>
 </table>
 
 <p class="principal"> Recebi de LÍDIA MEIRE BARRETO LOPES MADEIRAS - ME,
-inscrita no C.N.P.J. sob o n.º 07.333.536/0001-78, estabelecida à Av. Ver.
-Benedito de Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 870,10
-(oitocentos e setenta reais e dez centavos) referente ao aluguel mensal de um
-salão comercial no 1.º pavimento do imóvel no endereço acima, vencido em
-@lidia_vcto, cabendo 33,33% da referida importância líquida a cada locador.</p>
+    inscrita no C.N.P.J. sob o n.º 07.333.536/0001-78, estabelecida à Av. Ver.
+    Benedito de Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 945,66
+    (novecentos e quarenta e cinco reais e sessenta e seis centavos) referente
+    ao aluguel mensal de um salão comercial no 1.º pavimento do imóvel no
+    endereço acima, vencido em @lidia_vcto, cabendo 33,33% da referida
+    importância líquida a cada locador.</p>
 
 <p>Para maior clareza, firmo o presente.</p>
 
@@ -285,6 +286,9 @@ Centro - Ibiúna - SP
 </div>
 
 <p class="periodo">Vcto no 20.° dia do 3.º mês subseqüente - Período da Locação: 01/04/2009 a 31/03/2010</p>
+<p style="font-size: 8pt; margin-top: -1.5em; margin-bottom: 0">
+    Obs.: venceu em 31/03/2010. Em abril já deveria ter
+    sido reajustado. A diferença, pagar a parte ref. abril/2010.</p>
 
 @empy.stopDiverting()
 
@@ -420,19 +424,19 @@ Centro - Ibiúna - SP
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 733,42 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>  79,42 </td> </tr>
-    <tr> <td> + Luz (40,00%)...R$ </td>               <td> 125,96 </td> </tr>
-    <tr> <td> + Água (30,00%)...R$ </td>              <td>  14,78 </td> </tr>
+    <tr> <td> + Luz (40,00%)...R$ </td>               <td> 117,58 </td> </tr>
+    <tr> <td> + Água (30,00%)...R$ </td>              <td>  16,52 </td> </tr>
     <tr> <td> + IPTU 2010 @iptu </td>                 <td>  38,97 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 833,71 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 827,07 </td> </tr>
 </table>
 
 <p class="principal" style="line-height: 1em"> Recebi de FISCONT - Ass. Cont. e
-Auditoria Ltda. - ME, inscrita no C.N.P.J. sob o n.° 10.666.623/0001-51,
-estabelecido à Av. Ver.  Benedito de Campos, n.° 156, Ibiúna, SP, a importância
-líquida de R$ 833,71 (oitocentos e trinta e três reais e setenta e um
-centavos), referente ao aluguel mensal de três salas, n.ºs 1, 2 e 3, no 2.º
-pavimento do imóvel no endereço acima, vencido em @vcto, cabendo 33,33% da
-referida importância líquida a cada locador.</p>
+    Auditoria Ltda. - ME, inscrita no C.N.P.J. sob o n.° 10.666.623/0001-51,
+    estabelecido à Av. Ver.  Benedito de Campos, n.° 156, Ibiúna, SP, a
+    importância líquida de R$ 827,07 (oitocentos e vinte e sete reais e sete
+    centavos), referente ao aluguel mensal de três salas, n.ºs 1, 2 e 3, no 2.º
+    pavimento do imóvel no endereço acima, vencido em @vcto, cabendo 33,33% da
+    referida importância líquida a cada locador.</p>
 
 <p>Para maior clareza, firmo o presente.</p>
 
