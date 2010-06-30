@@ -243,6 +243,7 @@ Centro - Ibiúna - SP
 
 @empy.replayDiversion("ELIZEU")
 <br class="pbreak" />
+<br class="pbreak" />
 @empy.startDiversion("LIDIA1")
 
 <div class="notas">
@@ -286,9 +287,6 @@ Centro - Ibiúna - SP
 </div>
 
 <p class="periodo">Vcto no 20.° dia do 3.º mês subseqüente - Período da Locação: 01/04/2009 a 31/03/2010</p>
-<p style="font-size: 8pt; margin-top: -1.5em; margin-bottom: 0">
-    Obs.: venceu em 31/03/2010. Em abril já deveria ter
-    sido reajustado. A diferença, pagar a parte ref. abril/2010.</p>
 
 @empy.stopDiverting()
 
