@@ -202,15 +202,15 @@ Centro - Ibiúna - SP
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 150,00 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
-    <tr> <td> + Luz (10,00%)...R$ </td>               <td>  29,40 </td> </tr>
-    <tr> <td> + Água (10,00%)...R$ </td>              <td>   5,51 </td> </tr>
+    <tr> <td> + Luz (10,00%)...R$ </td>               <td>  31,07 </td> </tr>
+    <tr> <td> + Água (10,00%)...R$ </td>              <td>   4,90 </td> </tr>
     <tr> <td> + IPTU 2010 @iptu </td>                 <td>   8,46 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 193,37 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 194,43 </td> </tr>
 </table>
 
 <p class="principal"> Recebi de ELIZEU MARCICANO, estabelecido à Av. Ver.
-    Benedito de Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 193,37
-    (cento e noventa e três reais e trinta e sete centavos) referente ao
+    Benedito de Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 194,43
+    (cento e noventa e quatro reais e quarenta e três centavos) referente ao
     aluguel mensal de uma sala n.º 4 no 2.º pavimento do imóvel no endereço
     acima, vencido em @vcto, cabendo 33,33% da referida importância líquida a
     cada locador.</p>
@@ -337,8 +337,7 @@ ELIZEU MARCICANO E OUTROS
 
 <div class="fim">
 ELIZEU MARCICANO E OUTROS <br />
-Avenida Vereador Benedito de Campos, 156 <br />
-Centro - Ibiúna - SP
+Avenida Vereador Benedito de Campos, 156 - Centro - Ibiúna - SP
 </div>
 
 <p class="periodo">Período do Contrato de Locação: 01/07/2009 a 30/06/2010</p>
@@ -392,8 +391,7 @@ ELIZEU MARCICANO E OUTROS
 
 <div class="fim">
 ELIZEU MARCICANO E OUTROS <br />
-Avenida Vereador Benedito de Campos, 156 <br />
-Centro - Ibiúna - SP
+Avenida Vereador Benedito de Campos, 156 - Centro - Ibiúna - SP
 </div>
 
 <p class="periodo">Período do Contrato de Locação: 10/10/2009 a 09/10/2010</p>
@@ -422,16 +420,16 @@ Centro - Ibiúna - SP
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 733,42 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>  79,42 </td> </tr>
-    <tr> <td> + Luz (40,00%)...R$ </td>               <td> 117,58 </td> </tr>
-    <tr> <td> + Água (30,00%)...R$ </td>              <td>  16,52 </td> </tr>
+    <tr> <td> + Luz (40,00%)...R$ </td>               <td> 124,30 </td> </tr>
+    <tr> <td> + Água (30,00%)...R$ </td>              <td>  14,72 </td> </tr>
     <tr> <td> + IPTU 2010 @iptu </td>                 <td>  38,97 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 827,07 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 831,99 </td> </tr>
 </table>
 
 <p class="principal" style="line-height: 1em"> Recebi de FISCONT - Ass. Cont. e
     Auditoria Ltda. - ME, inscrita no C.N.P.J. sob o n.° 10.666.623/0001-51,
     estabelecido à Av. Ver.  Benedito de Campos, n.° 156, Ibiúna, SP, a
-    importância líquida de R$ 827,07 (oitocentos e vinte e sete reais e sete
+    importância líquida de R$ 831,99 (oitocentos e trinta e um reais e noventa e nove
     centavos), referente ao aluguel mensal de três salas, n.ºs 1, 2 e 3, no 2.º
     pavimento do imóvel no endereço acima, vencido em @vcto, cabendo 33,33% da
     referida importância líquida a cada locador.</p>
