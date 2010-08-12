@@ -1,5 +1,6 @@
 <html>
 <head>
+    <!-- Estilos {{{1 -->
     <meta http-equiv="CONTENT-TYPE" content="text/html; charset=iso-8859-1">
     <title>Recibos de Aluguel</title>
     <style type="text/css">
@@ -81,6 +82,8 @@
     </style>
 </head>
 <body>
+    
+<!-- Andrade Alves {{{1 -->
 @empy.startDiversion("ANDRADE")
 
 <div class="notas">
@@ -113,11 +116,11 @@ um salão comercial no 1.º pavimento do imóvel no endereço acima, vencido em
 
 <p class="assinatura">
 ___________________________________ <br />
-ELIZEU MARCICANO E OUTROS
+JOSÉ A. MARCICANO E OUTROS
 </p>
 
 <div class="fim">
-ELIZEU MARCICANO E OUTROS <br />
+JOSÉ A. MARCICANO E OUTROS <br />
 Avenida Vereador Benedito de Campos, 156 <br />
 Centro - Ibiúna - SP
 </div>
@@ -136,6 +139,8 @@ Centro - Ibiúna - SP
 
 @empy.replayDiversion("ANDRADE")
 <br class="pbreak" />
+
+<!-- Edinéia {{{1 -->
 @empy.startDiversion("EDINEIA")
 
 <div class="notas">
@@ -149,15 +154,15 @@ Centro - Ibiúna - SP
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 180,00 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
-    <tr> <td> + Luz (10,00%)...R$ </td>               <td>   0,00 </td> </tr>
-    <tr> <td> + Água (10,00%)...R$ </td>              <td>   0,00 </td> </tr>
+    <tr> <td> + Luz (20,00%)...R$ </td>               <td>   3,67 </td> </tr>
+    <tr> <td> + Água (20,00%)...R$ </td>              <td>   9,85 </td> </tr>
     <tr> <td> + IPTU 2010 @iptu </td>                 <td>   8,09 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 188,09 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 201,61 </td> </tr>
 </table>
 
 <p class="principal"> Recebi de EDINÉIA KELLER DE SOUZA, estabelecida à Av.
 Ver. Benedito de Campos, n.° 156, Ibiúna, SP, a importância líquida de R$
-188,09 (cento e oitenta e oito reais e nove centavos) referente ao aluguel
+201,61 (duzentos e um reais e sessenta e um centavos) referente ao aluguel
 mensal de uma sala n.º 4 no 3.º pavimento do imóvel no endereço acima, vencido
 em @vcto, cabendo 33,33% da referida importância líquida a cada locador.</p>
 
@@ -167,11 +172,11 @@ em @vcto, cabendo 33,33% da referida importância líquida a cada locador.</p>
 
 <p class="assinatura">
 ___________________________________ <br />
-ELIZEU MARCICANO E OUTROS
+JOSÉ A. MARCICANO E OUTROS
 </p>
 
 <div class="fim">
-ELIZEU MARCICANO E OUTROS <br />
+JOSÉ A. MARCICANO E OUTROS <br />
 Avenida Vereador Benedito de Campos, 156 <br />
 Centro - Ibiúna - SP
 </div>
@@ -189,6 +194,8 @@ Centro - Ibiúna - SP
 
 @empy.replayDiversion("EDINEIA")
 <br class="pbreak" />
+
+<!-- Elizeu {{{1 -->
 @empy.startDiversion("ELIZEU")
 
 <div class="notas">
@@ -202,18 +209,18 @@ Centro - Ibiúna - SP
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 150,00 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
-    <tr> <td> + Luz (10,00%)...R$ </td>               <td>  31,07 </td> </tr>
-    <tr> <td> + Água (10,00%)...R$ </td>              <td>   4,90 </td> </tr>
+    <tr> <td> + Luz (10,00%)...R$ </td>               <td>  29,92 </td> </tr>
+    <tr> <td> + Água (10,00%)...R$ </td>              <td>   4,93 </td> </tr>
     <tr> <td> + IPTU 2010 @iptu </td>                 <td>   8,46 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 194,43 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 193,31 </td> </tr>
 </table>
 
 <p class="principal"> Recebi de ELIZEU MARCICANO, estabelecido à Av. Ver.
-    Benedito de Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 194,43
-    (cento e noventa e quatro reais e quarenta e três centavos) referente ao
-    aluguel mensal de uma sala n.º 4 no 2.º pavimento do imóvel no endereço
-    acima, vencido em @vcto, cabendo 33,33% da referida importância líquida a
-    cada locador.</p>
+    Benedito de Campos, n.° 156, Ibiúna, SP, a importância líquida de R$ 193,31
+    (cento e noventa e três reais e trinta e um centavos) referente ao aluguel
+    mensal de uma sala n.º 4 no 2.º pavimento do imóvel no endereço acima,
+    vencido em @vcto, cabendo 33,33% da referida importância líquida a cada
+    locador.</p>
 
 <p>Para maior clareza, firmo o presente.</p>
 
@@ -221,11 +228,11 @@ Centro - Ibiúna - SP
 
 <p class="assinatura">
 ___________________________________ <br />
-ELIZEU MARCICANO E OUTROS
+JOSÉ A. MARCICANO E OUTROS
 </p>
 
 <div class="fim">
-ELIZEU MARCICANO E OUTROS <br />
+JOSÉ A. MARCICANO E OUTROS <br />
 Avenida Vereador Benedito de Campos, 156 <br />
 Centro - Ibiúna - SP
 </div>
@@ -244,6 +251,8 @@ Centro - Ibiúna - SP
 @empy.replayDiversion("ELIZEU")
 <br class="pbreak" />
 <br class="pbreak" />
+
+<!-- Lidia {{{1 -->
 @empy.startDiversion("LIDIA1")
 
 <div class="notas">
@@ -277,11 +286,11 @@ Centro - Ibiúna - SP
 
 <p class="assinatura">
 ___________________________________ <br />
-ELIZEU MARCICANO E OUTROS
+JOSÉ A. MARCICANO E OUTROS
 </p>
 
 <div class="fim">
-ELIZEU MARCICANO E OUTROS <br />
+JOSÉ A. MARCICANO E OUTROS <br />
 Avenida Vereador Benedito de Campos, 156 <br />
 Centro - Ibiúna - SP
 </div>
@@ -332,11 +341,11 @@ locador.</p>
 
 <p class="assinatura">
 ___________________________________ <br />
-ELIZEU MARCICANO E OUTROS
+JOSÉ A. MARCICANO E OUTROS
 </p>
 
 <div class="fim">
-ELIZEU MARCICANO E OUTROS <br />
+JOSÉ A. MARCICANO E OUTROS <br />
 Avenida Vereador Benedito de Campos, 156 - Centro - Ibiúna - SP
 </div>
 
@@ -353,6 +362,8 @@ Avenida Vereador Benedito de Campos, 156 - Centro - Ibiúna - SP
 
 @empy.replayDiversion("LIDIA2")
 <br class="pbreak" />
+
+<!-- Movetaker {{{1 -->
 @empy.startDiversion("MOVETAKER")
 
 <div class="notas">
@@ -386,11 +397,11 @@ n.º 3 no 3.º pavimento do imóvel no endereço acima, vencido em @vcto, cabendo
 
 <p class="assinatura">
 ___________________________________ <br />
-ELIZEU MARCICANO E OUTROS
+JOSÉ A. MARCICANO E OUTROS
 </p>
 
 <div class="fim">
-ELIZEU MARCICANO E OUTROS <br />
+JOSÉ A. MARCICANO E OUTROS <br />
 Avenida Vereador Benedito de Campos, 156 - Centro - Ibiúna - SP
 </div>
 
@@ -407,6 +418,8 @@ Avenida Vereador Benedito de Campos, 156 - Centro - Ibiúna - SP
 
 @empy.replayDiversion("MOVETAKER")
 <br class="pbreak" />
+
+<!-- Fiscont {{{1 -->
 @empy.startDiversion("FISCONT")
 
 <div class="notas">
@@ -420,19 +433,19 @@ Avenida Vereador Benedito de Campos, 156 - Centro - Ibiúna - SP
     </colgroup>
     <tr> <td> Valor...R$ </td>                        <td> 733,42 </td> </tr>
     <tr> <td> - Desconto...R$ </td>                   <td>  79,42 </td> </tr>
-    <tr> <td> + Luz (40,00%)...R$ </td>               <td> 124,30 </td> </tr>
-    <tr> <td> + Água (30,00%)...R$ </td>              <td>  14,72 </td> </tr>
+    <tr> <td> + Luz (40,00%)...R$ </td>               <td> 119,66 </td> </tr>
+    <tr> <td> + Água (30,00%)...R$ </td>              <td>  14,78 </td> </tr>
     <tr> <td> + IPTU 2010 @iptu </td>                 <td>  38,97 </td> </tr>
-    <tr> <td> Líquido...R$ </td>                      <td> 831,99 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 827,41 </td> </tr>
 </table>
 
 <p class="principal" style="line-height: 1em"> Recebi de FISCONT - Ass. Cont. e
     Auditoria Ltda. - ME, inscrita no C.N.P.J. sob o n.° 10.666.623/0001-51,
     estabelecido à Av. Ver.  Benedito de Campos, n.° 156, Ibiúna, SP, a
-    importância líquida de R$ 831,99 (oitocentos e trinta e um reais e noventa e nove
-    centavos), referente ao aluguel mensal de três salas, n.ºs 1, 2 e 3, no 2.º
-    pavimento do imóvel no endereço acima, vencido em @vcto, cabendo 33,33% da
-    referida importância líquida a cada locador.</p>
+    importância líquida de R$ 827,41 (oitocentos e vinte e sete reais e
+    quarenta e um centavos), referente ao aluguel mensal de três salas, n.ºs 1,
+    2 e 3, no 2.º pavimento do imóvel no endereço acima, vencido em @vcto,
+    cabendo 33,33% da referida importância líquida a cada locador.</p>
 
 <p>Para maior clareza, firmo o presente.</p>
 
@@ -440,11 +453,11 @@ Avenida Vereador Benedito de Campos, 156 - Centro - Ibiúna - SP
 
 <p class="assinatura">
 ___________________________________ <br />
-ELIZEU MARCICANO E OUTROS
+JOSÉ A. MARCICANO E OUTROS
 </p>
 
 <div class="fim">
-ELIZEU MARCICANO E OUTROS <br />
+JOSÉ A. MARCICANO E OUTROS <br />
 Avenida Vereador Benedito de Campos, 156 <br />
 Centro - Ibiúna - SP
 </div>
@@ -461,6 +474,63 @@ Centro - Ibiúna - SP
 <h1>AVISO DE ALUGUEL DE IMÓVEL</h1>
 
 @empy.replayDiversion("FISCONT")
+<br class="pbreak" />
+
+<!-- Construtora Oliveira {{{1 -->
+@empy.startDiversion("OLIVEIRA")
+
+<div class="notas">
+    <p><strong>@mes_vcto</strong></p>
+</div>
+
+<table class="detalhes">
+    <colgroup>
+        <col class="desc">
+        <col class="valor">
+    </colgroup>
+    <tr> <td> Valor...R$ </td>                        <td> 180,00 </td> </tr>
+    <tr> <td> - Desconto...R$ </td>                   <td>   0,00 </td> </tr>
+    <tr> <td> + Luz (40,00%)...R$ </td>               <td>   3,67 </td> </tr>
+    <tr> <td> + Água (30,00%)...R$ </td>              <td>   9,85 </td> </tr>
+    <tr> <td> + IPTU 2010 @iptu </td>                 <td>   8,46 </td> </tr>
+    <tr> <td> Líquido...R$ </td>                      <td> 201,98 </td> </tr>
+</table>
+
+<p class="principal" style="line-height: 1em"> Recebi de CONSTRUTORA OLIVEIRA E
+    PRESTAÇÃO DE SERVIÇOS LTDA., inscrita no C.N.P.J. sob o n.°
+    10.765.209/0001-08, estabelecido à Av. Ver.  Benedito de Campos, n.° 156,
+    Ibiúna, SP, a importância líquida de R$ 201,98 (duzentos e um reais e
+    noventa e oito centavos), referente ao aluguel mensal de uma sala n.º 5 no
+    3.º pavimento do imóvel no endereço acima, vencido em @vcto, cabendo 33,33%
+    da referida importância líquida a cada locador.</p>
+
+<p>Para maior clareza, firmo o presente.</p>
+
+<p class="data">Ibiúna, @pgto.</p>
+
+<p class="assinatura">
+___________________________________ <br />
+JOSÉ A. MARCICANO E OUTROS
+</p>
+
+<div class="fim">
+JOSÉ A. MARCICANO E OUTROS <br />
+Avenida Vereador Benedito de Campos, 156 <br />
+Centro - Ibiúna - SP
+</div>
+
+<p class="periodo">Período do Contrato de Locação: 15/07/2010 a 14/07/2011</p>
+
+@empy.stopDiverting()
+
+<h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
+
+@empy.replayDiversion("OLIVEIRA")
+<hr />
+
+<h1>AVISO DE ALUGUEL DE IMÓVEL</h1>
+
+@empy.replayDiversion("OLIVEIRA")
 <br class="pbreak" />
 </body>
 </html>
