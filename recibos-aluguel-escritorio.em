@@ -47,7 +47,7 @@
 firma estabelecida à Avenida Vereador Benedito de
 Campos, n.º 156, Ibiúna, SP, CNPJ n.º
 49.313.661/0001-66, a importância líquida de R$
-60,00 (sessenta reais), referente ao
+100,00 (cem reais), referente ao
 aluguel mensal da sala comercial n.° 7 no 2.º
 pavimento do imóvel acima, vencido em
 @vencimento.</p>
@@ -144,7 +144,7 @@ Centro - Ibiúna - SP
 LTDA. - ME, firma estabelecida à Avenida Vereador
 Benedito de Campos, n.º 156, 1.º andar, sala 6,
 Ibiúna, SP, CNPJ n.º 05.296.042/0001-35, a
-importância líquida de R$ 60,00 (sessenta
+importância líquida de R$ 100,00 (cem
 reais), referente ao aluguel mensal de salas
 comerciais no 2.º pavimento do imóvel acima,
 vencido em @vencimento.</p>
